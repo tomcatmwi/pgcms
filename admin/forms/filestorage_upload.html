@@ -1,0 +1,45 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=337></div>
+<div class="dialog_form_field">
+
+<div class="dialog_multiedit">
+  <input id="display_filename" disabled pgcms="339" type="text" />
+  <input type="button" pgcms=95 style="margin-top: 0 !important;" onclick="$('#upload_filename').click();" />
+</div>
+ <input type="file" id="upload_filename" style="display: none;" onchange="displayfile();" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=338></div>
+<div class="dialog_form_field">
+  <input type="text" id="upload_info" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=333></div>
+<div class="dialog_form_field">
+  <select id="upload_protected">
+    <option value=0 pgcms=334></option>
+    <option value=1 pgcms=335></option>
+    <option value=2 pgcms=336></option>
+  </select>
+</div>
+</div>
+
+<input type="hidden" id="upload_id" value=0 />
+<input type="hidden" id="popup_id" value=0 />
+
+<script type="text/javascript">
+
+function displayfile() {
+  var filename = $('#upload_filename').val();
+  var pos = filename.lastIndexOf('\\');
+  if (pos == -1) pos = filename.lastIndexOf('/');
+  if (pos == -1) pos = 0;
+  if (pos > 0) pos++;
+  $('#display_filename').val(filename.substr(pos));
+}
+
+</script>

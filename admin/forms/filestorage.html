@@ -1,0 +1,81 @@
+<div class="gallery">
+<div class="gallery_bar">
+
+  <div style="margin-bottom: 1em;">
+    <select id="filestorage_year" style="width: auto;" onchange="loadfiles(null, $('#filestorage_year').val(), $('#filestorage_month').val(), null);"></select>
+    <select id="filestorage_month" style="width: auto;" onchange="loadfiles(null, $('#filestorage_year').val(), $('#filestorage_month').val(), null);">
+      <option value="1" pgcms=47></option>
+      <option value="2" pgcms=48></option>
+      <option value="3" pgcms=49></option>
+      <option value="4" pgcms=50></option>
+      <option value="5" pgcms=51></option>
+      <option value="6" pgcms=52></option>
+      <option value="7" pgcms=53></option>
+      <option value="8" pgcms=54></option>
+      <option value="9" pgcms=55></option>
+      <option value="10" pgcms=56></option>
+      <option value="11" pgcms=57></option>
+      <option value="12" pgcms=58></option>
+    </select>
+  </div>
+  
+  <select id="filestorage_list" style="min-height: 10em;" size=20></select>
+  <br />
+  
+  <img src="../pic/icon_upload.png" class="icon" pgcms=329 onclick="filestorage_new();" />
+  <img src="../pic/icon_edit.png" class="icon" pgcms=60 onclick="filestorage_edit($('#filestorage_list').val());" />
+  <img src="../pic/icon_delete.png" class="icon" pgcms=9 onclick="filestorage_delete($('#filestorage_list').val());" />
+  <a id="filestorage_download"><img src="../pic/icon_download.png" class="icon" pgcms=328 /></a>
+  <img src="../pic/icon_search.png" class="icon" pgcms=9 onclick="filestorage_search();" />
+
+  <div id="filestorage_info" class="gallery_info">
+    <div class="gallery_info_title" pgcms=75></div><div class="filestorage_info_value" id="filestorage_info_2" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=77></div><div class="filestorage_info_value" id="filestorage_info_3" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=78></div><div class="filestorage_info_value" id="filestorage_info_4" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=322></div><div class="filestorage_info_value" id="filestorage_info_5" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=324></div><div class="filestorage_info_value" id="filestorage_info_6" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=323></div><div class="filestorage_info_value" id="filestorage_info_7" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=28></div><div class="filestorage_info_value" id="filestorage_info_8" pgcms=74></div>
+  </div>
+
+
+  <div class="gallery_info" id="filestorage_insertparams">
+
+    <div style="margin-bottom: 1em;">
+      <span style="font-weight: bold;" pgcms=377></span><br />
+      <input type="text" id="filestorage_link" onclick="$(this).select();" />
+    </div>
+    
+    <div style="margin-bottom: 1em;">
+      <span style="font-weight: bold;" pgcms=142></span><br />
+      <select id="filestorage_target">
+        <option value="_self" pgcms=143></option>
+        <option value="_blank" pgcms=144></option>
+        <option value="_parent" pgcms=145></option>
+      </select>
+    </div>
+
+    <div style="margin-bottom: 1em;">
+      <span style="font-weight: bold;" pgcms=63></span><br />
+      <select id="filestorage_align">
+        <option value="0" pgcms=67></option>
+        <option value="1" pgcms=68></option>
+        <option value="2" pgcms=69></option>
+      </select>
+    </div>
+
+    <div style="margin-bottom: 1em;">
+      <span style="font-weight: bold;" pgcms=378></span><br />
+      <select id="filestorage_icon">
+        <option value="0" pgcms=379></option>
+        <option value="16">16 x 16</option>
+        <option value="22">22 x 22</option>
+        <option value="32" selected>32 x 32</option>
+        <option value="48">48 x 48</option>
+        <option value="64">64 x 64</option>
+        <option value="128">128 x 128</option>
+        <option value="256">256 x 256</option>
+      </select>
+    </div>
+
+</div>

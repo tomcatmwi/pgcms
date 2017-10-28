@@ -1,0 +1,43 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="contactform.name">Your name:</div>
+<div class="dialog_form_field">
+  <input type="text" id="contact_name" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="contactform.company">Company:</div>
+<div class="dialog_form_field">
+  <input type="text" id="contact_company" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="contactform.email">Your email address:</div>
+<div class="dialog_form_field">
+  <input type="text" id="contact_email" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="contactform.phone">Phone number:</div>
+<div class="dialog_form_field">
+  <input type="text" id="contact_phone" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="contactform.text">Message text:</div>
+<div class="dialog_form_field">
+  <textarea id="contact_text"></textarea>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="contactform.captcha">Please enter this code:</div>
+<div class="dialog_form_field">
+  <input type="text" id="contact_captcha" /><br />
+  <img id="contact_captcha_image" class="captcha" /><br />
+  <a pgcms="general.captcha_retry" onclick="newcaptcha('contact_captcha_image');">Give me another</a>
+</div>
+</div>

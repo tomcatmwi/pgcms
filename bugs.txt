@@ -1,0 +1,3 @@
+- Replace all date fields to timestamp with time zone.
+- Getuser should return text fields as CDATA.
+- All Date fields must be changed from Integer to Timestamp with Timezone

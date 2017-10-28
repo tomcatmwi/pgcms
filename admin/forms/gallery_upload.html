@@ -1,0 +1,65 @@
+<div class="dialog_form_container_noflex" style="text-align: center;">
+
+  <div class="gallery_preview_container">
+    <span class="gallery_preview_helper"></span><img class="gallery_preview" id="upload_preview" pgcms=71 />
+  </div>
+  
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=94></div>
+<div class="dialog_form_field">
+  <input type="button" pgcms=95 style="vertical-align: middle;" onclick="$('#upload_filename').unbind('change'); $('#upload_filename').change(loadimage); $('#upload_filename').click();" />
+  <input type="file" id="upload_filename" style="display: none;" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=96></div>
+<div class="dialog_form_field">
+  <input type="text" id="upload_info" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=97></div>
+<div class="dialog_form_field">
+  <input type="text" id="upload_caption" />
+</div>
+</div>
+
+<input type="hidden" id="upload_id" value=0 />
+<input type="hidden" id="popup_id" value=0 />
+
+<script type="text/javascript">
+
+function loadimage(evt) {
+
+  preloader(true);
+  var f = evt.target.files;
+  if (f[0].type != ('image/jpeg') && f[0].type != ('image/png') && f[0].type != ('image/gif')) { preloader(false); return false; }
+
+  var reader = new FileReader();
+
+  reader.onload = (function(theFile) {
+        return function(e) {
+          var filename = $('#upload_filename').val();
+          var lastslash = filename.lastIndexOf('/');
+          if (lastslash == -1) lastslash = filename.lastIndexOf('\\');
+          if (lastslash > -1) filename = filename.substring(lastslash+1, filename.length);
+          
+          if ($('#upload_info').val() == '') { $('#upload_info').val(filename); }
+          $('#upload_preview').attr('src', e.target.result);
+          $('#upload_preview').css('width', 'auto');
+          $('#upload_preview').css('height', 'auto');
+          $('#upload_caption').focus();
+          $('#upload_caption').select();
+          preloader(false);
+        };
+  })(f);
+  
+  reader.readAsDataURL(f[0]);
+  
+}
+
+</script>

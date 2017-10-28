@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- pgCMS Admin menu items -->
+<!-- Language: Hungarian -->
+
+<!--
+
+This XML file contains the main menu items of the pgCMS admin UI.
+Each menu can have infinite submenus, on a single level. Just embed a <menuitem> into another <menuitem>.
+
+<title>       Can be: Menu item text, a number for localization entry, or "SEPARATOR" if you need a menu separator here (without quotes)
+<url>         Link URL
+<active>      1 if active, 0 if disabled
+<visible>     1 to show, 0 to hide
+
+-->
+
+<admin_menu>
+
+  <!-- MENU ITEM -->
+
+  <menuitem>
+    <title>218</title>
+    <url></url>
+    <active>1</active>
+    <visible>1</visible>
+
+      <menuitem>
+        <title>4</title>
+        <url>text-groups.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>204</title>
+        <url>texts.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>176</title>
+        <url>articles.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+    
+  </menuitem>
+
+  <!-- MENU ITEM -->
+
+  <menuitem>
+    <title>215</title>
+    <url></url>
+    <active>1</active>
+    <visible>1</visible>
+
+      <menuitem>
+        <title>212</title>
+        <url>messages.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>213</title>
+        <url>message_folders.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>199</title>
+        <url>messages_autoreply.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>182</title>
+        <url>massmailer.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+  </menuitem>
+
+  <!-- MENU ITEM -->
+
+  <menuitem>
+    <title>216</title>
+    <url></url>
+    <active>1</active>
+    <visible>1</visible>
+
+      <menuitem>
+        <title>207</title>
+        <url>users.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+  </menuitem>
+
+  <!-- MENU ITEM -->
+
+  <menuitem>
+    <title>343</title>
+    <url></url>
+    <active>1</active>
+    <visible>1</visible>
+
+      <menuitem>
+        <title>344</title>
+        <url>faq_groups.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>345</title>
+        <url>faq.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+  </menuitem>
+
+  <!-- MENU ITEM -->
+
+  <menuitem>
+    <title>217</title>
+    <url></url>
+    <active>1</active>
+    <visible>1</visible>
+
+      <menuitem>
+        <title>201</title>
+        <url>settings.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>203</title>
+        <url>systemmsg.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>181</title>
+        <url>languages.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>180</title>
+        <url>countries.php</url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>SEPARATOR</title>
+        <url></url>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+      <menuitem>
+        <title>214</title>
+        <url></url>
+        <onclick>logout_dialog();</onclick>
+        <active>1</active>
+        <visible>1</visible>
+      </menuitem>
+
+  </menuitem>
+
+
+</admin_menu>

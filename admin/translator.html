@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png"  href="../pic/pixeldog_mini.png">
+    
+    <title>pgCMS admin</title>
+
+<style>
+
+input[type=text] {
+  margin: 3px;
+  padding: 2px;
+}
+
+input[type=text]:focus {
+  background-color: yellow;
+}
+
+</style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+  document.counter = 0;
+
+        $.ajax({
+            type: 'GET',
+            cache: 'false',
+            url: '../xmldata/admin_1.xml?rnd=' + $.now(),
+            dataType: 'xml',
+
+            error: function() {
+                preloader(false);
+                alert('Error: Can\'t load XML');
+            },
+
+            complete: function(xhr) {
+
+                try {
+                    xml = jQuery.parseXML(xhr.responseText);
+                } catch (err) {
+                    return false;
+                }
+                
+                $(xml).find('texts > text').each(function() {
+
+                  if (Number($(this).attr('id')) > document.counter) { document.counter = Number($(this).attr('id')); }
+                  
+                  $('#fieldz').append($('<input />', { 'id': 'no_'+$(this).attr('id'), 'type': 'text', 'disabled': true, 'value': $(this).attr('id'), 'style': 'text-align: right; width: 40px; font-weight: bold;' }));
+                  $('#fieldz').append($('<input />', { 'id': 'text_'+$(this).attr('id'), 'type': 'text', 'style': 'width: 1200px;', 'value': $(this).find('text').text() }));
+                  $('#fieldz').append($('<br />'));
+                
+                });
+
+                $(':input').click(function() { 
+                console.log('e');
+                  $(this).select();
+                });
+                
+            }
+        });
+
+});
+
+function addrow() {
+  document.counter++;
+  $('#fieldz').append($('<input />', { 'id': 'no_'+document.counter, 'type': 'text', 'disabled': true, 'value': document.counter, 'style': 'text-align: right; width: 40px; font-weight: bold;' }));
+  $('#fieldz').append($('<input />', { 'id': 'text_'+document.counter, 'type': 'text', 'style': 'width: 1200px;' }));
+  $('#fieldz').append($('<br />'));
+
+}
+
+function save() {
+  if ($('#savefield').css('display') == 'none') {
+    $('#savefield').css('display', 'block');
+    $('#savetext').empty();
+    
+    var xml = '';
+    for (var t=0; t<=document.counter; t++) {
+      if (typeof $('#no_'+t).val() !== 'undefined') {
+        xml += '<text id="'+$('#no_'+t).val()+'">\n';
+        xml += '  <text><![CDATA['+$('#text_'+t).val()+']]></text>\n';
+        xml += '</text>\n\n';
+      }
+    }
+    
+    $('#savetext').val(xml);
+    
+    
+  } else {
+    $('#savefield').css('display', 'none');
+  }
+
+}
+
+</script>
+
+</head>
+<body>
+
+<div id="fieldz"></div>
+
+<div id="savefield" ondblclick="save();" style="width: 100vw; height: 80vh; display: none; position: absolute; top: 0px; left: 0px;">
+  <textarea id="savetext" style="width: 100%; height: 100%;"></textarea>
+</div>
+
+<input type="button" value="+" style="width: 150px; height: 30px;" onclick="addrow();" />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<input type="button" value="Mentés" onclick="save();" />
+
+</body>
+</html>

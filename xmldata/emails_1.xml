@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<emails>
+    <email>
+        <id>header</id>
+        <subject>Header</subject>
+        <explanation>Header to be added to every e-mail.</explanation>
+        <body><![CDATA[<b>Dear %name%!</b>
+      <br><br>]]></body>
+    </email>
+    <email>
+        <id>signature</id>
+        <subject>pgCMS: Response to your inquiry</subject>
+        <explanation>Signature to be added to every email sent from the system.</explanation>
+        <body><![CDATA[
+      <br /><br />
+      Cheers,<br />
+      <b>%sendername%</b><br />
+      <a href="mailto:%senderemail%">%senderemail%</a>
+    ]]></body>
+    </email>
+    <email>
+        <id>signature_autoreply</id>
+        <subject>Signature</subject>
+        <explanation>Signature to be added to every autoreply.</explanation>
+        <body><![CDATA[<br><br>
+      <b>Pixeldog pgCMS Admin</b>
+      <br>
+      <span style="font-size: 10px;">
+        This is an automatically generated message. Please do not respond.
+      </span>]]></body>
+    </email>
+    <email>
+        <id>registration_confirm</id>
+        <subject>pgCMS: Registration confirmation</subject>
+        <explanation>Registration confirmation letter</explanation>
+        <body><![CDATA[
+      Please confirm your intent to register in our pgCMS system at %frontend_root%.
+      <br /><br />
+      To confirm your registration, <a href="%frontend_root%register_confirm.php?id=%resetcode%">click here</a> or copy this link into your browser:
+      <br /><br />
+      %frontend_root%register_confirm.php?id=%resetcode%
+    ]]></body>
+    </email>
+    <email>
+        <id>forgot_password</id>
+        <subject>pgCMS: Forgotten username or password</subject>
+        <explanation>Forgot username or password</explanation>
+        <body><![CDATA[We are sorry for your experience.
+      <br><br>
+      To set a new password in our pgCMS system, please <a href="%frontend_root%resetpassword.php?id=%resetcode%">click this link</a> or copy this URL into your browser:
+      <br><br>
+      %frontend_root%resetpassword.php?id=%resetcode%]]></body>
+    </email>
+</emails>

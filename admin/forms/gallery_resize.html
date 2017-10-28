@@ -1,0 +1,40 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=79></div>
+<div class="dialog_form_field">
+  <select id="resize" onchange="if ($(this).val() == 0) { $('#resize_params').css('display', 'none'); } else { $('#resize_params').css('display', 'block'); $('#resize_x').select(); }">
+    <option value=0 pgcms=80></option>
+    <option value=1 pgcms=81></option>
+  </select>
+  <div id="resize_params" style="margin-top: 5px; display: none;">
+    <input type="text" id="resize_x" style="width: 3em !important; min-width: 3em !important; max-width: 3em !important;" onfocus="$(this).select();" /> &#215;
+    <input type="text" id="resize_y" style="width: 3em !important; min-width: 3em !important; max-width: 3em !important;" onfocus="$(this).select();" /><br />
+    <input type="hidden" id="resize_x_original" /><input type="hidden" id="resize_y_original" />
+    <input type="checkbox" id="proportional" checked /><label for="proportional" pgcms=82></label><br />
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=83></div>
+<div class="dialog_form_field">
+  <select id="rotate">
+    <option value=0 pgcms=84></option>
+    <option value=1 pgcms=85></option>
+    <option value=2 pgcms=86></option>
+    <option value=3 pgcms=87></option>
+  </select>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=88></div>
+<div class="dialog_form_field">
+  <select id="flip">
+    <option value=0 pgcms=89></option>
+    <option value=1 pgcms=90></option>
+    <option value=2 pgcms=91></option>
+  </select>
+</div>
+</div>
+
+<input type="hidden" id="resize_id" value=0 />

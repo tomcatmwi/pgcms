@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<texts>
+
+<!-- pgCMS admin localization file - Hungarian / Magyar -->
+
+<text id="1">
+  <text><![CDATA[unread messages]]></text>
+</text>
+
+<text id="2">
+  <text><![CDATA[Welcome!]]></text>
+</text>
+
+<text id="3">
+  <text><![CDATA[I am the administration interface of pgCMS.]]></text>
+</text>
+
+<text id="4">
+  <text><![CDATA[Content groups]]></text>
+</text>
+
+<text id="5">
+  <text><![CDATA[New content group]]></text>
+</text>
+
+<text id="6">
+  <text><![CDATA[Token]]></text>
+</text>
+
+<text id="7">
+  <text><![CDATA[Information]]></text>
+</text>
+
+<text id="8">
+  <text><![CDATA[Edit]]></text>
+</text>
+
+<text id="9">
+  <text><![CDATA[Delete]]></text>
+</text>
+
+<text id="10">
+  <text><![CDATA[Translate]]></text>
+</text>
+
+<text id="11">
+  <text><![CDATA[Information about the group:]]></text>
+</text>
+
+<text id="12">
+  <text><![CDATA[A few words about the text group, ie. which page does it belong, or which object.]]></text>
+</text>
+
+<text id="13">
+  <text><![CDATA[Token:]]></text>
+</text>
+
+<text id="14">
+  <text><![CDATA[Special characters will be sanitized, ie. "vis-á-vis" will become "vis_a_vis"]]></text>
+</text>
+
+<text id="15">
+  <text><![CDATA[Do you really want to delete this group?]]></text>
+</text>
+
+<text id="16">
+  <text><![CDATA[Also delete texts and articles in the group]]></text>
+</text>
+
+<text id="17">
+  <text><![CDATA[Title:]]></text>
+</text>
+
+<text id="18">
+  <text><![CDATA[Token:]]></text>
+</text>
+
+<text id="19">
+  <text><![CDATA[Date of publishing:]]></text>
+</text>
+
+<text id="20">
+  <text><![CDATA[Group:]]></text>
+</text>
+
+<text id="21">
+  <text><![CDATA[Information:]]></text>
+</text>
+
+<text id="22">
+  <text><![CDATA[General information about this text. It's the same for all languages.]]></text>
+</text>
+
+<text id="23">
+  <text><![CDATA[Lead text:]]></text>
+</text>
+
+<text id="24">
+  <text><![CDATA[Article text:]]></text>
+</text>
+
+<text id="25">
+  <text><![CDATA[Do you really want to permanently delete this article?]]></text>
+</text>
+
+<text id="26">
+  <text><![CDATA[Delete all language versions]]></text>
+</text>
+
+<text id="27">
+  <text><![CDATA[Content group:]]></text>
+</text>
+
+<text id="28">
+  <text><![CDATA[Information:]]></text>
+</text>
+
+<text id="29">
+  <text><![CDATA[ID:]]></text>
+</text>
+
+<text id="30">
+  <text><![CDATA[Created:]]></text>
+</text>
+
+<text id="31">
+  <text><![CDATA[Translated:]]></text>
+</text>
+
+<text id="32">
+  <text><![CDATA[Translated by:]]></text>
+</text>
+
+<text id="33">
+  <text><![CDATA[Target language:]]></text>
+</text>
+
+<text id="34">
+  <text><![CDATA[Overwrite old version (if exists)]]></text>
+</text>
+
+<text id="35">
+  <text><![CDATA[Country ID:]]></text>
+</text>
+
+<text id="36">
+  <text><![CDATA[Name of country:]]></text>
+</text>
+
+<text id="37">
+  <text><![CDATA[English name of country:]]></text>
+</text>
+
+<text id="38">
+  <text><![CDATA[Capital city:]]></text>
+</text>
+
+<text id="39">
+  <text><![CDATA[Currency:]]></text>
+</text>
+
+<text id="40">
+  <text><![CDATA[Phone code:]]></text>
+</text>
+
+<text id="41">
+  <text><![CDATA[Default language:]]></text>
+</text>
+
+<text id="42">
+  <text><![CDATA[-- Not specified --]]></text>
+</text>
+
+<text id="43">
+  <text><![CDATA[Use imperial measurements:]]></text>
+</text>
+
+<text id="44">
+  <text><![CDATA[No]]></text>
+</text>
+
+<text id="45">
+  <text><![CDATA[Yes]]></text>
+</text>
+
+<text id="46">
+  <text><![CDATA[Selectable:]]></text>
+</text>
+
+<text id="47">
+  <text><![CDATA[January]]></text>
+</text>
+
+<text id="48">
+  <text><![CDATA[February]]></text>
+</text>
+
+<text id="49">
+  <text><![CDATA[March]]></text>
+</text>
+
+<text id="50">
+  <text><![CDATA[April]]></text>
+</text>
+
+<text id="51">
+  <text><![CDATA[May]]></text>
+</text>
+
+<text id="52">
+  <text><![CDATA[June]]></text>
+</text>
+
+<text id="53">
+  <text><![CDATA[July]]></text>
+</text>
+
+<text id="54">
+  <text><![CDATA[August]]></text>
+</text>
+
+<text id="55">
+  <text><![CDATA[September]]></text>
+</text>
+
+<text id="56">
+  <text><![CDATA[October]]></text>
+</text>
+
+<text id="57">
+  <text><![CDATA[November]]></text>
+</text>
+
+<text id="58">
+  <text><![CDATA[December]]></text>
+</text>
+
+<text id="59">
+  <text><![CDATA[New image]]></text>
+</text>
+
+<text id="60">
+  <text><![CDATA[Modify]]></text>
+</text>
+
+<text id="61">
+  <text><![CDATA[Image manipulation]]></text>
+</text>
+
+<text id="62">
+  <text><![CDATA[Search]]></text>
+</text>
+
+<text id="63">
+  <text><![CDATA[Insert mode:]]></text>
+</text>
+
+<text id="64">
+  <text><![CDATA[Thumbnail]]></text>
+</text>
+
+<text id="65">
+  <text><![CDATA[Normal size]]></text>
+</text>
+
+<text id="66">
+  <text><![CDATA[Full size]]></text>
+</text>
+
+<text id="67">
+  <text><![CDATA[Normal insert]]></text>
+</text>
+
+<text id="68">
+  <text><![CDATA[Float left]]></text>
+</text>
+
+<text id="69">
+  <text><![CDATA[Float right]]></text>
+</text>
+
+<text id="70">
+  <text><![CDATA[Add caption]]></text>
+</text>
+
+<text id="71">
+  <text><![CDATA[Preview]]></text>
+</text>
+
+<text id="72">
+  <text><![CDATA[No caption]]></text>
+</text>
+
+<text id="73">
+  <text><![CDATA[File name:]]></text>
+</text>
+
+<text id="74">
+  <text><![CDATA[Unknown]]></text>
+</text>
+
+<text id="75">
+  <text><![CDATA[File size:]]></text>
+</text>
+
+<text id="76">
+  <text><![CDATA[Image size:]]></text>
+</text>
+
+<text id="77">
+  <text><![CDATA[Uploaded:]]></text>
+</text>
+
+<text id="78">
+  <text><![CDATA[Uploaded by:]]></text>
+</text>
+
+<text id="79">
+  <text><![CDATA[Resize:]]></text>
+</text>
+
+<text id="80">
+  <text><![CDATA[-- No resizing --]]></text>
+</text>
+
+<text id="81">
+  <text><![CDATA[Resize]]></text>
+</text>
+
+<text id="82">
+  <text><![CDATA[Keep aspect ratio]]></text>
+</text>
+
+<text id="83">
+  <text><![CDATA[Rotate:]]></text>
+</text>
+
+<text id="84">
+  <text><![CDATA[-- No rotation --]]></text>
+</text>
+
+<text id="85">
+  <text><![CDATA[90 degrees right]]></text>
+</text>
+
+<text id="86">
+  <text><![CDATA[90 degrees left]]></text>
+</text>
+
+<text id="87">
+  <text><![CDATA[180 degrees]]></text>
+</text>
+
+<text id="88">
+  <text><![CDATA[Mirror:]]></text>
+</text>
+
+<text id="89">
+  <text><![CDATA[-- No mirroring --]]></text>
+</text>
+
+<text id="90">
+  <text><![CDATA[Horizontal]]></text>
+</text>
+
+<text id="91">
+  <text><![CDATA[Vertical]]></text>
+</text>
+
+<text id="92">
+  <text><![CDATA[Search:]]></text>
+</text>
+
+<text id="93">
+  <text><![CDATA[Leave empty to clear search filter]]></text>
+</text>
+
+<text id="94">
+  <text><![CDATA[Image:]]></text>
+</text>
+
+<text id="95">
+  <text><![CDATA[Search]]></text>
+</text>
+
+<text id="96">
+  <text><![CDATA[Information (same for all languages):]]></text>
+</text>
+
+<text id="97">
+  <text><![CDATA[Image caption:]]></text>
+</text>
+
+<text id="98">
+  <text><![CDATA[Name of language:]]></text>
+</text>
+
+<text id="99">
+  <text><![CDATA[English name of language:]]></text>
+</text>
+
+<text id="100">
+  <text><![CDATA[Date format:]]></text>
+</text>
+
+<text id="101">
+  <text><![CDATA[Example: "Y. m. d."]]></text>
+</text>
+
+<text id="102">
+  <text><![CDATA[Encoding:]]></text>
+</text>
+
+<text id="103">
+  <text><![CDATA[Example: "utf8" or "latin-1"]]></text>
+</text>
+
+<text id="104">
+  <text><![CDATA[Language code:]]></text>
+</text>
+
+<text id="105">
+  <text><![CDATA[Example: "en-EN" or "hu-HU"]]></text>
+</text>
+
+<text id="106">
+  <text><![CDATA[Google code:]]></text>
+</text>
+
+<text id="107">
+  <text><![CDATA[Example: "en" or "hu"]]></text>
+</text>
+
+<text id="108">
+  <text><![CDATA[Thousands separator]]></text>
+</text>
+
+<text id="109">
+  <text><![CDATA[A single character that separates thousands in large numbers]]></text>
+</text>
+
+<text id="110">
+  <text><![CDATA[Decimal point:]]></text>
+</text>
+
+<text id="111">
+  <text><![CDATA[A single character that separates decimals]]></text>
+</text>
+
+<text id="112">
+  <text><![CDATA[User name:]]></text>
+</text>
+
+<text id="113">
+  <text><![CDATA[Password:]]></text>
+</text>
+
+<text id="114">
+  <text><![CDATA[Remember me]]></text>
+</text>
+
+<text id="115">
+  <text><![CDATA[I forgot the password]]></text>
+</text>
+
+<text id="116">
+  <text><![CDATA[Your email address:]]></text>
+</text>
+
+<text id="117">
+  <text><![CDATA[Separator character:]]></text>
+</text>
+
+<text id="118">
+  <text><![CDATA[Comma]]></text>
+</text>
+
+<text id="119">
+  <text><![CDATA[Line break]]></text>
+</text>
+
+<text id="120">
+  <text><![CDATA[Space]]></text>
+</text>
+
+<text id="121">
+  <text><![CDATA[Name of list:]]></text>
+</text>
+
+<text id="122">
+  <text><![CDATA[Let other users access this list]]></text>
+</text>
+
+<text id="123">
+  <text><![CDATA[Sending interval in seconds:]]></text>
+</text>
+
+<text id="124">
+  <text><![CDATA[Addressing recipients without known names:]]></text>
+</text>
+
+<text id="125">
+  <text><![CDATA[Recipient]]></text>
+</text>
+
+<text id="126">
+  <text><![CDATA[Sender:]]></text>
+</text>
+
+<text id="127">
+  <text><![CDATA[Under my own name]]></text>
+</text>
+
+<text id="128">
+  <text><![CDATA[As an automated system message (no-reply)]]></text>
+</text>
+
+<text id="129">
+  <text><![CDATA[Folder title:]]></text>
+</text>
+
+<text id="130">
+  <text><![CDATA[Do you really want to delete this folder?]]></text>
+</text>
+
+<text id="131">
+  <text><![CDATA[Also delete messages in it]]></text>
+</text>
+
+<text id="132">
+  <text><![CDATA[Subject:]]></text>
+</text>
+
+<text id="133">
+  <text><![CDATA[Information:]]></text>
+</text>
+
+<text id="134">
+  <text><![CDATA[Message body:]]></text>
+</text>
+
+<text id="135">
+  <text><![CDATA[Target language:]]></text>
+</text>
+
+<text id="136">
+  <text><![CDATA[Sender name:]]></text>
+</text>
+
+<text id="137">
+  <text><![CDATA[Sender email address:]]></text>
+</text>
+
+<text id="138">
+  <text><![CDATA[Message body:]]></text>
+</text>
+
+<text id="139">
+  <text><![CDATA[Recipient:]]></text>
+</text>
+
+<text id="140">
+  <text><![CDATA[CC:]]></text>
+</text>
+
+<text id="141">
+  <text><![CDATA[Link URL:]]></text>
+</text>
+
+<text id="142">
+  <text><![CDATA[Open:]]></text>
+</text>
+
+<text id="143">
+  <text><![CDATA[On the same tab (_self)]]></text>
+</text>
+
+<text id="144">
+  <text><![CDATA[On a new tab (_blank)]]></text>
+</text>
+
+<text id="145">
+  <text><![CDATA[In the parent tab (_parent)]]></text>
+</text>
+
+<text id="146">
+  <text><![CDATA[YouTube URL:]]></text>
+</text>
+
+<text id="147">
+  <text><![CDATA[Size:]]></text>
+</text>
+
+<text id="148">
+  <text><![CDATA[Enable full screen playback]]></text>
+</text>
+
+<text id="149">
+  <text><![CDATA[Setting:]]></text>
+</text>
+
+<text id="150">
+  <text><![CDATA[Value:]]></text>
+</text>
+
+<text id="151">
+  <text><![CDATA[Explanation:]]></text>
+</text>
+
+<text id="152">
+  <text><![CDATA[Text:]]></text>
+</text>
+
+<text id="153">
+  <text><![CDATA[Do you really want to permanently delete this text?]]></text>
+</text>
+
+<text id="154">
+  <text><![CDATA[Translated text:]]></text>
+</text>
+
+<text id="155">
+  <text><![CDATA[Full name]]></text>
+</text>
+
+<text id="156">
+  <text><![CDATA[Nickname or forum name:]]></text>
+</text>
+
+<text id="157">
+  <text><![CDATA[Email:]]></text>
+</text>
+
+<text id="158">
+  <text><![CDATA[Phone:]]></text>
+</text>
+
+<text id="159">
+  <text><![CDATA[Company name:]]></text>
+</text>
+
+<text id="160">
+  <text><![CDATA[Company address:]]></text>
+</text>
+
+<text id="161">
+  <text><![CDATA[Language:]]></text>
+</text>
+
+<text id="162">
+  <text><![CDATA[Permissions:]]></text>
+</text>
+
+<text id="163">
+  <text><![CDATA[Country:]]></text>
+</text>
+
+<text id="164">
+  <text><![CDATA[State or province:]]></text>
+</text>
+
+<text id="165">
+  <text><![CDATA[ZIP and city:]]></text>
+</text>
+
+<text id="166">
+  <text><![CDATA[Street address:]]></text>
+</text>
+
+<text id="167">
+  <text><![CDATA[Company (if any):]]></text>
+</text>
+
+<text id="168">
+  <text><![CDATA[If you leave it empty, you don't have to specify a company address.]]></text>
+</text>
+
+<text id="169">
+  <text><![CDATA[Company country:]]></text>
+</text>
+
+<text id="170">
+  <text><![CDATA[Company state or province:]]></text>
+</text>
+
+<text id="171">
+  <text><![CDATA[Company ZIP and city:]]></text>
+</text>
+
+<text id="172">
+  <text><![CDATA[Company street address:]]></text>
+</text>
+
+<text id="173">
+  <text><![CDATA[Active]]></text>
+</text>
+
+<text id="174">
+  <text><![CDATA[Newsletter]]></text>
+</text>
+
+<text id="175">
+  <text><![CDATA[Administrator]]></text>
+</text>
+
+<text id="176">
+  <text><![CDATA[Articles]]></text>
+</text>
+
+<text id="177">
+  <text><![CDATA[New article]]></text>
+</text>
+
+<text id="178">
+  <text><![CDATA[Translate all]]></text>
+</text>
+
+<text id="179">
+  <text><![CDATA[Gallery]]></text>
+</text>
+
+<text id="180">
+  <text><![CDATA[Countries]]></text>
+</text>
+
+<text id="181">
+  <text><![CDATA[Languages]]></text>
+</text>
+
+<text id="182">
+  <text><![CDATA[Mass mailer]]></text>
+</text>
+
+<text id="183">
+  <text><![CDATA[Name and email address:]]></text>
+</text>
+
+<text id="184">
+  <text><![CDATA[Add >>]]></text>
+</text>
+
+<text id="185">
+  <text><![CDATA[Mass add:]]></text>
+</text>
+
+<text id="186">
+  <text><![CDATA[Add users signed up for newsletter]]></text>
+</text>
+
+<text id="187">
+  <text><![CDATA[Add active users]]></text>
+</text>
+
+<text id="188">
+  <text><![CDATA[Add administrators]]></text>
+</text>
+
+<text id="189">
+  <text><![CDATA[Save]]></text>
+</text>
+
+<text id="190">
+  <text><![CDATA[Load]]></text>
+</text>
+
+<text id="191">
+  <text><![CDATA[Import]]></text>
+</text>
+
+<text id="192">
+  <text><![CDATA[Send]]></text>
+</text>
+
+<text id="193">
+  <text><![CDATA[New folder]]></text>
+</text>
+
+<text id="194">
+  <text><![CDATA[Messages]]></text>
+</text>
+
+<text id="195">
+  <text><![CDATA[Today]]></text>
+</text>
+
+<text id="196">
+  <text><![CDATA[-- All folders --]]></text>
+</text>
+
+<text id="197">
+  <text><![CDATA[OK]]></text>
+</text>
+
+<text id="198">
+  <text><![CDATA[All unread]]></text>
+</text>
+
+<text id="199">
+  <text><![CDATA[Predefined responses]]></text>
+</text>
+
+<text id="200">
+  <text><![CDATA[New response]]></text>
+</text>
+
+<text id="201">
+  <text><![CDATA[Settings]]></text>
+</text>
+
+<text id="202">
+  <text><![CDATA[Pixeldog accepts no responsibility if you screw up these settings, and you'll be the butt of our jokes!]]></text>
+</text>
+
+<text id="203">
+  <text><![CDATA[Automatic system messages]]></text>
+</text>
+
+<text id="204">
+  <text><![CDATA[Texts]]></text>
+</text>
+
+<text id="205">
+  <text><![CDATA[New text]]></text>
+</text>
+
+<text id="206">
+  <text><![CDATA[-- All groups --]]></text>
+</text>
+
+<text id="207">
+  <text><![CDATA[Users]]></text>
+</text>
+
+<text id="208">
+  <text><![CDATA[New user]]></text>
+</text>
+
+<text id="209">
+  <text><![CDATA[pgCMS admin]]></text>
+</text>
+
+<text id="210">
+  <text><![CDATA[Menu]]></text>
+</text>
+
+<text id="211">
+  <text><![CDATA[Content]]></text>
+</text>
+
+<text id="212">
+  <text><![CDATA[Incoming messages]]></text>
+</text>
+
+<text id="213">
+  <text><![CDATA[Message folders]]></text>
+</text>
+
+<text id="214">
+  <text><![CDATA[Sign out]]></text>
+</text>
+
+<text id="215">
+  <text><![CDATA[Messages <span class="caret"></span>]]></text>
+</text>
+
+<text id="216">
+  <text><![CDATA[Users <span class="caret"></span>]]></text>
+</text>
+
+<text id="217">
+  <text><![CDATA[Settings <span class="caret"></span>]]></text>
+</text>
+
+<text id="218">
+  <text><![CDATA[Content <span class="caret"></span>]]></text>
+</text>
+
+<text id="219">
+  <text><![CDATA[Are you sure you would like to sign out?]]></text>
+</text>
+
+<text id="220">
+  <text><![CDATA[Could not load file:]]></text>
+</text>
+
+<text id="221">
+  <text><![CDATA[Could not read file:]]></text>
+</text>
+
+<text id="222">
+  <text><![CDATA[Details]]></text>
+</text>
+
+<text id="223">
+  <text><![CDATA[loading]]></text>
+</text>
+
+<text id="224">
+  <text><![CDATA[Image gallery]]></text>
+</text>
+
+<text id="225">
+  <text><![CDATA[Close]]></text>
+</text>
+
+<text id="226">
+  <text><![CDATA[Insert]]></text>
+</text>
+
+<text id="227">
+  <text><![CDATA[Cancel]]></text>
+</text>
+
+<text id="228">
+  <text><![CDATA[Upload new image]]></text>
+</text>
+
+<text id="229">
+  <text><![CDATA[This image is too big to upload. Please resize and try again.]]></text>
+</text>
+
+<text id="230">
+  <text><![CDATA[upload in progress]]></text>
+</text>
+
+<text id="231">
+  <text><![CDATA[Delete image]]></text>
+</text>
+
+<text id="232">
+  <text><![CDATA[Do you really want to delete this image?<br />It will be gone from articles too!]]></text>
+</text>
+
+<text id="233">
+  <text><![CDATA[Modify image]]></text>
+</text>
+
+<text id="234">
+  <text><![CDATA[No image was selected.]]></text>
+</text>
+
+<text id="235">
+  <text><![CDATA[Search images]]></text>
+</text>
+
+<text id="236">
+  <text><![CDATA[Edit image]]></text>
+</text>
+
+<text id="237">
+  <text><![CDATA[ID]]></text>
+</text>
+
+<text id="238">
+  <text><![CDATA[Article title]]></text>
+</text>
+
+<text id="239">
+  <text><![CDATA[Created]]></text>
+</text>
+
+<text id="240">
+  <text><![CDATA[New article]]></text>
+</text>
+
+<text id="241">
+  <text><![CDATA[Delete article]]></text>
+</text>
+
+<text id="242">
+  <text><![CDATA[Modify article]]></text>
+</text>
+
+<text id="243">
+  <text><![CDATA[<b>%count%</b> articles translated to <b>%language%.</b>]]></text>
+</text>
+
+<text id="244">
+  <text><![CDATA[Article titled <b>%title%</b> has been copied.]]></text>
+</text>
+
+<text id="245">
+  <text><![CDATA[Not specified]]></text>
+</text>
+
+<text id="246">
+  <text><![CDATA[English name]]></text>
+</text>
+
+<text id="247">
+  <text><![CDATA[Name]]></text>
+</text>
+
+<text id="248">
+  <text><![CDATA[Language]]></text>
+</text>
+
+<text id="249">
+  <text><![CDATA[Currency]]></text>
+</text>
+
+<text id="250">
+  <text><![CDATA[Selectable]]></text>
+</text>
+
+<text id="251">
+  <text><![CDATA[Modify country]]></text>
+</text>
+
+<text id="252">
+  <text><![CDATA[Flag]]></text>
+</text>
+
+<text id="253">
+  <text><![CDATA[Modify setting]]></text>
+</text>
+
+<text id="254">
+  <text><![CDATA[Sign in]]></text>
+</text>
+
+<text id="255">
+  <text><![CDATA[Forgot password]]></text>
+</text>
+
+<text id="256">
+  <text><![CDATA[A password reset code had been sent to your email address.]]></text>
+</text>
+
+<text id="257">
+  <text><![CDATA[No address was specified.]]></text>
+</text>
+
+<text id="258">
+  <text><![CDATA[Load address list]]></text>
+</text>
+
+<text id="259">
+  <text><![CDATA[Delete address list]]></text>
+</text>
+
+<text id="260">
+  <text><![CDATA[Do you really want to delete this list?]]></text>
+</text>
+
+<text id="261">
+  <text><![CDATA[Save address list]]></text>
+</text>
+
+<text id="262">
+  <text><![CDATA[Address list saved.]]></text>
+</text>
+
+<text id="263">
+  <text><![CDATA[Import address list]]></text>
+</text>
+
+<text id="264">
+  <text><![CDATA[Send mails]]></text>
+</text>
+
+<text id="265">
+  <text><![CDATA[Stop]]></text>
+</text>
+
+<text id="266">
+  <text><![CDATA[Error! The process has stopped.\n]]></text>
+</text>
+
+<text id="267">
+  <text><![CDATA[Folder title]]></text>
+</text>
+
+<text id="268">
+  <text><![CDATA[Messages]]></text>
+</text>
+
+<text id="269">
+  <text><![CDATA[Modify folder]]></text>
+</text>
+
+<text id="270">
+  <text><![CDATA[New folder]]></text>
+</text>
+
+<text id="271">
+  <text><![CDATA[Delete folder]]></text>
+</text>
+
+<text id="272">
+  <text><![CDATA[Automatic response sent.]]></text>
+</text>
+
+<text id="273">
+  <text><![CDATA[Modify message]]></text>
+</text>
+
+<text id="274">
+  <text><![CDATA[Message sender]]></text>
+</text>
+
+<text id="275">
+  <text><![CDATA[Response sent.]]></text>
+</text>
+
+<text id="276">
+  <text><![CDATA[Delete message]]></text>
+</text>
+
+<text id="277">
+  <text><![CDATA[Do you want to permanently delete this message?]]></text>
+</text>
+
+<text id="278">
+  <text><![CDATA[The message has been moved to folder <b>%folder%</b>]]></text>
+</text>
+
+<text id="279">
+  <text><![CDATA[The message is not in any folder.]]></text>
+</text>
+
+<text id="280">
+  <text><![CDATA[Automatic reply:]]></text>
+</text>
+
+<text id="281">
+  <text><![CDATA[Move to folder:]]></text>
+</text>
+
+<text id="282">
+  <text><![CDATA[-- Not in a folder --]]></text>
+</text>
+
+<text id="283">
+  <text><![CDATA[Replied]]></text>
+</text>
+
+<text id="284">
+  <text><![CDATA[Reply]]></text>
+</text>
+
+<text id="285">
+  <text><![CDATA[Subject]]></text>
+</text>
+
+<text id="286">
+  <text><![CDATA[Delete reply]]></text>
+</text>
+
+<text id="287">
+  <text><![CDATA[Do you really want to delete this message?]]></text>
+</text>
+
+<text id="288">
+  <text><![CDATA[Modify message]]></text>
+</text>
+
+<text id="289">
+  <text><![CDATA[Message copied.]]></text>
+</text>
+
+<text id="290">
+  <text><![CDATA[<b>%count%</b> messages translated to <b>%language%.</b>]]></text>
+</text>
+
+<text id="291">
+  <text><![CDATA[Setting]]></text>
+</text>
+
+<text id="292">
+  <text><![CDATA[Value]]></text>
+</text>
+
+<text id="293">
+  <text><![CDATA[Explanation]]></text>
+</text>
+
+<text id="294">
+  <text><![CDATA[Status]]></text>
+</text>
+
+<text id="295">
+  <text><![CDATA[Modify group]]></text>
+</text>
+
+<text id="296">
+  <text><![CDATA[New group]]></text>
+</text>
+
+<text id="297">
+  <text><![CDATA[<b>%group%</b> group created.]]></text>
+</text>
+
+<text id="298">
+  <text><![CDATA[<b>%group%</b> group has been modified.]]></text>
+</text>
+
+<text id="299">
+  <text><![CDATA[Delete group]]></text>
+</text>
+
+<text id="300">
+  <text><![CDATA[Text]]></text>
+</text>
+
+<text id="301">
+  <text><![CDATA[Translator]]></text>
+</text>
+
+<text id="302">
+  <text><![CDATA[Delete text]]></text>
+</text>
+
+<text id="303">
+  <text><![CDATA[Modify text]]></text>
+</text>
+
+<text id="304">
+  <text><![CDATA[Translation completed.]]></text>
+</text>
+
+<text id="305">
+  <text><![CDATA[<b>%count%</b> texts have been translated to <b>%language%</b>]]></text>
+</text>
+
+<text id="306">
+  <text><![CDATA[Nickname]]></text>
+</text>
+
+<text id="307">
+  <text><![CDATA[Company name]]></text>
+</text>
+
+<text id="308">
+  <text><![CDATA[Email]]></text>
+</text>
+
+<text id="309">
+  <text><![CDATA[Active]]></text>
+</text>
+
+<text id="310">
+  <text><![CDATA[Admin]]></text>
+</text>
+
+<text id="311">
+  <text><![CDATA[You need Administrator privileges to modify users. You can only modify yourself.]]></text>
+</text>
+
+<text id="312">
+  <text><![CDATA[Modify user]]></text>
+</text>
+
+<text id="313">
+  <text><![CDATA[New user]]></text>
+</text>
+
+<text id="314">
+  <text><![CDATA[Registration successful.]]></text>
+</text>
+
+<text id="315">
+  <text><![CDATA[Modification successful.]]></text>
+</text>
+
+<text id="316">
+  <text><![CDATA[Delete user]]></text>
+</text>
+
+<text id="317">
+  <text><![CDATA[Do you really want to delete this user?]]></text>
+</text>
+
+<text id="318">
+  <text><![CDATA[Address:]]></text>
+</text>
+
+<text id="319">
+  <text><![CDATA[Generated automatically]]></text>
+</text>
+
+<text id="320">
+  <text><![CDATA[File gallery]]></text>
+</text>
+
+<text id="321">
+  <text><![CDATA[Filename:]]></text>
+</text>
+
+<text id="322">
+  <text><![CDATA[MIME type:]]></text>
+</text>
+
+<text id="323">
+  <text><![CDATA[Accessed:]]></text>
+</text>
+
+<text id="324">
+  <text><![CDATA[Limitations:]]></text>
+</text>
+
+<text id="325">
+  <text><![CDATA[No limitations]]></text>
+</text>
+
+<text id="326">
+  <text><![CDATA[Only for registered users]]></text>
+</text>
+
+<text id="327">
+  <text><![CDATA[Only for Administrators]]></text>
+</text>
+
+<text id="328">
+  <text><![CDATA[Download]]></text>
+</text>
+
+<text id="329">
+  <text><![CDATA[Upload]]></text>
+</text>
+
+<text id="330">
+  <text><![CDATA[Delete file]]></text>
+</text>
+
+<text id="331">
+  <text><![CDATA[Do you really want to permanently delete this file?<br />It will disappear from all articles!]]></text>
+</text>
+
+<text id="332">
+  <text><![CDATA[Upload a new file]]></text>
+</text>
+
+<text id="333">
+  <text><![CDATA[Download rights:]]></text>
+</text>
+
+<text id="334">
+  <text><![CDATA[Anyone can download it]]></text>
+</text>
+
+<text id="335">
+  <text><![CDATA[Only registered users]]></text>
+</text>
+
+<text id="336">
+  <text><![CDATA[Only Administrators]]></text>
+</text>
+
+<text id="337">
+  <text><![CDATA[Select file:]]></text>
+</text>
+
+<text id="338">
+  <text><![CDATA[Description:]]></text>
+</text>
+
+<text id="339">
+  <text><![CDATA[Not selected]]></text>
+</text>
+
+<text id="340">
+  <text><![CDATA[Modify a file]]></text>
+</text>
+
+<text id="341">
+  <text><![CDATA[Search files]]></text>
+</text>
+
+<text id="342">
+  <text><![CDATA[No file is selected.]]></text>
+</text>
+
+<text id="343">
+  <text><![CDATA[F.A.Q. <span class="caret"></span>]]></text>
+</text>
+
+<text id="344">
+  <text><![CDATA[Question groups]]></text>
+</text>
+
+<text id="345">
+  <text><![CDATA[Answers]]></text>
+</text>
+
+<text id="346">
+  <text><![CDATA[Title of group]]></text>
+</text>
+
+<text id="347">
+  <text><![CDATA[Answers]]></text>
+</text>
+
+<text id="348">
+  <text><![CDATA[Priority]]></text>
+</text>
+
+<text id="349">
+  <text><![CDATA[Published]]></text>
+</text>
+
+<text id="350">
+  <text><![CDATA[Title of group:]]></text>
+</text>
+
+<text id="351">
+  <text><![CDATA[Priority:]]></text>
+</text>
+
+<text id="352">
+  <text><![CDATA[Public]]></text>
+</text>
+
+<text id="353">
+  <text><![CDATA[New question group]]></text>
+</text>
+
+<text id="354">
+  <text><![CDATA[Modify question group]]></text>
+</text>
+
+<text id="355">
+  <text><![CDATA[Delete question group]]></text>
+</text>
+
+<text id="356">
+  <text><![CDATA[Do you really want to delete this group?]]></text>
+</text>
+
+<text id="357">
+  <text><![CDATA[Delete questions as well.]]></text>
+</text>
+
+<text id="358">
+  <text><![CDATA[%count% groups translated to %language%.]]></text>
+</text>
+
+<text id="359">
+  <text><![CDATA[Frequently Asked Questions]]></text>
+</text>
+
+<text id="360">
+  <text><![CDATA[New question]]></text>
+</text>
+
+<text id="361">
+  <text><![CDATA[Question]]></text>
+</text>
+
+<text id="362">
+  <text><![CDATA[Question:]]></text>
+</text>
+
+<text id="363">
+  <text><![CDATA[Question group:]]></text>
+</text>
+
+<text id="364">
+  <text><![CDATA[Answer:]]></text>
+</text>
+
+<text id="365">
+  <text><![CDATA[Publish question]]></text>
+</text>
+
+<text id="366">
+  <text><![CDATA[Do you really want to permanently delete this question?]]></text>
+</text>
+
+<text id="367">
+  <text><![CDATA[Delete from all languages]]></text>
+</text>
+
+<text id="368">
+  <text><![CDATA[Modify question]]></text>
+</text>
+
+<text id="369">
+  <text><![CDATA[%count% questions translated to %language%.]]></text>
+</text>
+
+<text id="370">
+  <text><![CDATA[Copying of question complete.]]></text>
+</text>
+
+<text id="371">
+  <text><![CDATA[Public:]]></text>
+</text>
+
+<text id="372">
+  <text><![CDATA[Search words:]]></text>
+</text>
+
+<text id="373">
+  <text><![CDATA[Double click a search word to delete.]]></text>
+</text>
+
+<text id="374">
+  <text><![CDATA[Add]]></text>
+</text>
+
+<text id="375">
+  <text><![CDATA[Add search word]]></text>
+</text>
+
+<text id="376">
+  <text><![CDATA[Search word:]]></text>
+</text>
+
+<text id="377">
+  <text><![CDATA[Link text:]]></text>
+</text>
+
+<text id="378">
+  <text><![CDATA[Icon:]]></text>
+</text>
+
+<text id="379">
+  <text><![CDATA[No icon]]></text>
+</text>
+
+</texts>

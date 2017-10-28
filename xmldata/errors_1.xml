@@ -1,0 +1,1672 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<errors>
+
+<!-- Error messages - English -->
+
+ <error id="1">
+  <module>api.texts</module>
+  <cmd>getgroup</cmd>
+  <message>
+   <![CDATA[Invalid group ID.]]>
+  </message>
+ </error>
+ <error id="2">
+  <module>api.texts</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[Invalid group ID.]]>
+  </message>
+ </error>
+ <error id="3">
+  <module>api.texts</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[This group ID does not exist.]]>
+  </message>
+ </error>
+ <error id="4">
+  <module>api.system</module>
+  <cmd>setlanguage</cmd>
+  <message>
+   <![CDATA[Language file not found.]]>
+  </message>
+ </error>
+ <error id="5">
+  <module>api.texts</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[You need to be Administrator to delete a text group.]]>
+  </message>
+ </error>
+ <error id="6">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[You need to be Administrator to add or modify a text group.]]>
+  </message>
+ </error>
+ <error id="7">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Invalid token. It should be at least 5 characters long.]]>
+  </message>
+ </error>
+ <error id="8">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[This token already exists.]]>
+  </message>
+ </error>
+ <error id="9">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Invalid group ID.]]>
+  </message>
+ </error>
+ <error id="10">
+  <module>api.gallery</module>
+  <cmd>getimages</cmd>
+  <message>
+   <![CDATA[You need to be Administrator to access the image gallery.]]>
+  </message>
+ </error>
+ <error id="11">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Token must not contain commas.]]>
+  </message>
+ </error>
+ <error id="12">
+  <module>api.texts</module>
+  <cmd>cunnilingus</cmd>
+  <message>
+   <![CDATA[No tokens are specified.]]>
+  </message>
+ </error>
+ <error id="13">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Invalid setting token.]]>
+  </message>
+ </error>
+ <error id="14">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to modify system settings.]]>
+  </message>
+ </error>
+ <error id="15">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to add a text.]]>
+  </message>
+ </error>
+ <error id="16">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Invalid token.]]>
+  </message>
+ </error>
+ <error id="17">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Invalid group identifier.]]>
+  </message>
+ </error>
+ <error id="18">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[This token already exists in this group.]]>
+  </message>
+ </error>
+ <error id="19">
+  <module>api.texts</module>
+  <cmd>gettext</cmd>
+  <message>
+   <![CDATA[Invalid identifier.]]>
+  </message>
+ </error>
+ <error id="20">
+  <module>api.texts</module>
+  <cmd>fellatio</cmd>
+  <message>
+   <![CDATA[Invalid token list.]]>
+  </message>
+ </error>
+ <error id="21">
+  <module>api.texts</module>
+  <cmd>fellatio</cmd>
+  <message>
+   <![CDATA[No tokens are specified.]]>
+  </message>
+ </error>
+ <error id="22">
+  <module>api.system</module>
+  <cmd>general error</cmd>
+  <message>
+   <![CDATA[Invalid captcha. Please try again.]]>
+  </message>
+ </error>
+ <error id="23">
+  <module>api.userdata</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[You are not currently logged in.]]>
+  </message>
+ </error>
+ <error id="24">
+  <module>api.userdata</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[Invalid method.]]>
+  </message>
+ </error>
+ <error id="25">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to update country properties.]]>
+  </message>
+ </error>
+ <error id="26">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid country ID.]]>
+  </message>
+ </error>
+ <error id="27">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid country name.]]>
+  </message>
+ </error>
+ <error id="28">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid English name.]]>
+  </message>
+ </error>
+ <error id="29">
+  <module>api.system</module>
+  <cmd>localmsg</cmd>
+  <message>
+   <![CDATA[No token or group was specified.]]>
+  </message>
+ </error>
+ <error id="30">
+  <module>api.system</module>
+  <cmd>localmsg</cmd>
+  <message>
+   <![CDATA[Token or group not found in xmldata/local_%language%.xml.]]>
+  </message>
+ </error>
+ <error id="31">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid capital.]]>
+  </message>
+ </error>
+ <error id="32">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid currency code.]]>
+  </message>
+ </error>
+ <error id="33">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid setting for imperial measurements.]]>
+  </message>
+ </error>
+ <error id="34">
+  <module>api.system</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[You don't have the required permissions to modify this user.]]>
+  </message>
+ </error>
+ <error id="35">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Invalid name.]]>
+  </message>
+ </error>
+ <error id="36">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid setting for selectable.]]>
+  </message>
+ </error>
+ <error id="37">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Unknown country. It's probably not your country's fault though, but a database error.]]>
+  </message>
+ </error>
+ <error id="38">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Invalid city name.]]>
+  </message>
+ </error>
+ <error id="39">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Invalid e-mail address.]]>
+  </message>
+ </error>
+ <error id="40">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[The username must be at least 5 characters long, and 64 characters maximum.]]>
+  </message>
+ </error>
+ <error id="41">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid country dialcode.]]>
+  </message>
+ </error>
+ <error id="42">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Passwords don't match.]]>
+  </message>
+ </error>
+ <error id="43">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid language code.]]>
+  </message>
+ </error>
+ <error id="44">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Could not write countries.xml.]]>
+  </message>
+ </error>
+ <error id="45">
+  <module>api.texts</module>
+  <cmd>getarticle</cmd>
+  <message>
+   <![CDATA[Requested article not found.]]>
+  </message>
+ </error>
+ <error id="46">
+  <module>api.texts</module>
+  <cmd>blogroll</cmd>
+  <message>
+   <![CDATA[Group token not specified.]]>
+  </message>
+ </error>
+ <error id="47">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[This username is already in use. Please choose a different username.]]>
+  </message>
+ </error>
+ <error id="48">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[There is already a registration with this phone number. If you've forgotten your password, please use the reminder function.]]>
+  </message>
+ </error>
+ <error id="49">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[There is already a registration with the e-mail address %email%. If you've forgotten your password, please use the reminder function.]]>
+  </message>
+ </error>
+ <error id="50">
+  <module>api.texts</module>
+  <cmd>blogroll</cmd>
+  <message>
+   <![CDATA[There are no more posts.]]>
+  </message>
+ </error>
+ <error id="51">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Search term is too short.]]>
+  </message>
+ </error>
+ <error id="52">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[Invalid reset code. It should be 12 characters, all lowercase.]]>
+  </message>
+ </error>
+ <error id="53">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[Reset code not found. Check for typing errors. If you've already activated your account, you don't need to do it again. If more that 24 hours have passed since your registration, please do it again because it was already deleted.]]>
+  </message>
+ </error>
+ <error id="54">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[You are banned from this system.]]>
+  </message>
+ </error>
+ <error id="55">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[Your account is already active. Please use the password reset function to obtain a new password.]]>
+  </message>
+ </error>
+ <error id="56">
+  <module>api.userdata</module>
+  <cmd>reconfirmreg</cmd>
+  <message>
+   <![CDATA[Invalid e-mail address.]]>
+  </message>
+ </error>
+ <error id="57">
+  <module>api.userdata</module>
+  <cmd>reconfirmreg</cmd>
+  <message>
+   <![CDATA[This e-mail address is not associated with any new registrations. Possible reasons: you've mistyped it, you might already have confirmed your registration, or it's been more than 24 hours since you registered and your account was deleted.]]>
+  </message>
+ </error>
+ <error id="58">
+  <module>api.userdata</module>
+  <cmd>login</cmd>
+  <message>
+   <![CDATA[Invalid username or password.]]>
+  </message>
+ </error>
+ <error id="59">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Invalid ID.]]>
+  </message>
+ </error>
+ <error id="60">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Invalid year.]]>
+  </message>
+ </error>
+ <error id="61">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Invalid month.]]>
+  </message>
+ </error>
+ <error id="62">
+  <module>api.filestorage</module>
+  <cmd>deletefile</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete a file.]]>
+  </message>
+ </error>
+ <error id="63">
+  <module>api.filestorage</module>
+  <cmd>deletefile</cmd>
+  <message>
+   <![CDATA[Invalid file ID.]]>
+  </message>
+ </error>
+ <error id="64">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to upload a file.]]>
+  </message>
+ </error>
+ <error id="65">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Description is too short.]]>
+  </message>
+ </error>
+ <error id="66">
+  <module>api.system</module>
+  <cmd>forgotpassword</cmd>
+  <message>
+   <![CDATA[Invalid e-mail address.]]>
+  </message>
+ </error>
+ <error id="67">
+  <module>api.system</module>
+  <cmd>forgotpassword</cmd>
+  <message>
+   <![CDATA[There is no account associated with this e-mail address.]]>
+  </message>
+ </error>
+ <error id="68">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[This file is too small.]]>
+  </message>
+ </error>
+ <error id="69">
+  <module>api.system</module>
+  <cmd>forgotpassword</cmd>
+  <message>
+   <![CDATA[This account has not been activated yet.]]>
+  </message>
+ </error>
+ <error id="70">
+  <module>api.system</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[Invalid reset code.]]>
+  </message>
+ </error>
+ <error id="71">
+  <module>api.system</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[This reset code is not associated with any account. If you copied it to your browser, please check if it's correct.]]>
+  </message>
+ </error>
+ <error id="72">
+  <module>api.system</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[Invalid username.]]>
+  </message>
+ </error>
+ <error id="73">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[The username must be at least 5 characters long, and 64 characters maximum.]]>
+  </message>
+ </error>
+ <error id="74">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[The password must be at least 5 characters long, and 64 characters maximum.]]>
+  </message>
+ </error>
+ <error id="75">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[Passwords don't match.]]>
+  </message>
+ </error>
+ <error id="76">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[The password must not be the same as the username.]]>
+  </message>
+ </error>
+ <error id="77">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Érvénytelen beállítás.]]>
+  </message>
+ </error>
+ <error id="78">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Could not save %filename%]]>
+  </message>
+ </error>
+ <error id="79">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Invalid file ID.]]>
+  </message>
+ </error>
+ <error id="82">
+  <module>api.userdata</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[Invalid user ID.]]>
+  </message>
+ </error>
+ <error id="84">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[You can only modify your own registration.]]>
+  </message>
+ </error>
+ <error id="85">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[User ID not found.]]>
+  </message>
+ </error>
+ <error id="86">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[You have to be logged in to modify your registration.]]>
+  </message>
+ </error>
+ <error id="185">
+  <module>api.userdata</module>
+  <cmd>deleteuser</cmd>
+  <message>
+   <![CDATA[Invalid user ID.]]>
+  </message>
+ </error>
+ <error id="188">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Can't write languages.xml on server.]]>
+  </message>
+ </error>
+ <error id="189">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to modify language settings.]]>
+  </message>
+ </error>
+ <error id="190">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid language ID.]]>
+  </message>
+ </error>
+ <error id="191">
+  <module>api.texts</module>
+  <cmd>deletetext</cmd>
+  <message>
+   <![CDATA[Invalid ID.]]>
+  </message>
+ </error>
+ <error id="192">
+  <module>api.texts</module>
+  <cmd>deletetext</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete content.]]>
+  </message>
+ </error>
+ <error id="193">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to modify content.]]>
+  </message>
+ </error>
+ <error id="194">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Invalid text.]]>
+  </message>
+ </error>
+ <error id="195">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Invalid token.]]>
+  </message>
+ </error>
+ <error id="196">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Invalid group ID.]]>
+  </message>
+ </error>
+ <error id="197">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Invalid ID.]]>
+  </message>
+ </error>
+ <error id="198">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[This text is too short.]]>
+  </message>
+ </error>
+ <error id="199">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to translate texts.]]>
+  </message>
+ </error>
+ <error id="201">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Invalid target language.]]>
+  </message>
+ </error>
+ <error id="203">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Invalid text ID.]]>
+  </message>
+ </error>
+ <error id="204">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[This text is already translated to this language.]]>
+  </message>
+ </error>
+ <error id="206">
+  <module>api.texts</module>
+  <cmd>translate_all</cmd>
+  <message>
+   <![CDATA[Invalid target language.]]>
+  </message>
+ </error>
+ <error id="207">
+  <module>api.texts</module>
+  <cmd>translate_all</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges for this operation.]]>
+  </message>
+ </error>
+ <error id="209">
+  <module>api.texts</module>
+  <cmd>getarticle</cmd>
+  <message>
+   <![CDATA[Invalid article token.]]>
+  </message>
+ </error>
+ <error id="210">
+  <module>api.texts</module>
+  <cmd>getarticle</cmd>
+  <message>
+   <![CDATA[Invalid article ID.]]>
+  </message>
+ </error>
+ <error id="211">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to add or alter an article.]]>
+  </message>
+ </error>
+ <error id="212">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Invalid token.]]>
+  </message>
+ </error>
+ <error id="213">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Invalid group.]]>
+  </message>
+ </error>
+ <error id="214">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[An article with the same token already exists in this group.]]>
+  </message>
+ </error>
+ <error id="215">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Invalid token.]]>
+  </message>
+ </error>
+ <error id="216">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Invalid article ID.]]>
+  </message>
+ </error>
+ <error id="217">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[There is no article text.]]>
+  </message>
+ </error>
+ <error id="218">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[There is no intro text.]]>
+  </message>
+ </error>
+ <error id="219">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[No article title specified.]]>
+  </message>
+ </error>
+ <error id="220">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[No article title specified.]]>
+  </message>
+ </error>
+ <error id="221">
+  <module>api.texts</module>
+  <cmd>deletearticle</cmd>
+  <message>
+   <![CDATA[Invalid article ID.]]>
+  </message>
+ </error>
+ <error id="222">
+  <module>api.texts</module>
+  <cmd>deletearticle</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete articles.]]>
+  </message>
+ </error>
+ <error id="223">
+  <module>api.texts</module>
+  <cmd>translate_article</cmd>
+  <message>
+   <![CDATA[Invalid article ID.]]>
+  </message>
+ </error>
+ <error id="224">
+  <module>api.texts</module>
+  <cmd>translate_article</cmd>
+  <message>
+   <![CDATA[Invalid target language.]]>
+  </message>
+ </error>
+ <error id="228">
+  <module>api.texts</module>
+  <cmd>translate_all_articles</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to translate articles.]]>
+  </message>
+ </error>
+ <error id="229">
+  <module>api.texts</module>
+  <cmd>translate_all_articles</cmd>
+  <message>
+   <![CDATA[Invalid target language.]]>
+  </message>
+ </error>
+ <error id="230">
+  <module>api.gallery</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Invalid image ID.]]>
+  </message>
+ </error>
+ <error id="231">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to upload images.]]>
+  </message>
+ </error>
+ <error id="232">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Invalid information line.]]>
+  </message>
+ </error>
+ <error id="234">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Invalid image stream.]]>
+  </message>
+ </error>
+ <error id="235">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Unable to save %filename%.]]>
+  </message>
+ </error>
+ <error id="236">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Invalid image ID.]]>
+  </message>
+ </error>
+ <error id="237">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete an image.]]>
+  </message>
+ </error>
+ <error id="238">
+  <module>api.gallery</module>
+  <cmd>updatecaption</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to update captions.]]>
+  </message>
+ </error>
+ <error id="239">
+  <module>api.gallery</module>
+  <cmd>updatecaption</cmd>
+  <message>
+   <![CDATA[Invalid image ID.]]>
+  </message>
+ </error>
+ <error id="240">
+  <module>api.gallery</module>
+  <cmd>updatecaption</cmd>
+  <message>
+   <![CDATA[This caption is a little bit too short.]]>
+  </message>
+ </error>
+ <error id="241">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Invalid creation timestamp.]]>
+  </message>
+ </error>
+ <error id="243">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Invalid nickname.]]>
+  </message>
+ </error>
+ <error id="244">
+  <module>api.userdata</module>
+  <cmd>deleteuser</cmd>
+  <message>
+   <![CDATA[You need Administrator rights to delete users.]]>
+  </message>
+ </error>
+ <error id="245">
+  <module>api.messages</module>
+  <cmd>addfolder</cmd>
+  <message>
+   <![CDATA[You need Administrator rights to add folders.]]>
+  </message>
+ </error>
+ <error id="246">
+  <module>api.messages</module>
+  <cmd>addfolder</cmd>
+  <message>
+   <![CDATA[Invalid title.]]>
+  </message>
+ </error>
+ <error id="247">
+  <module>api.messages</module>
+  <cmd>addfolder</cmd>
+  <message>
+   <![CDATA[Invalid folder ID.]]>
+  </message>
+ </error>
+ <error id="248">
+  <module>api.messages</module>
+  <cmd>getfolder</cmd>
+  <message>
+   <![CDATA[Invalid folder ID.]]>
+  </message>
+ </error>
+ <error id="249">
+  <module>api.messages</module>
+  <cmd>deletefolder</cmd>
+  <message>
+   <![CDATA[Invalid folder ID.]]>
+  </message>
+ </error>
+ <error id="250">
+  <module>api.messages</module>
+  <cmd>deletefolder</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete messages.]]>
+  </message>
+ </error>
+ <error id="251">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to read messages.]]>
+  </message>
+ </error>
+ <error id="252">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to read messages.]]>
+  </message>
+ </error>
+ <error id="253">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Invalid year.]]>
+  </message>
+ </error>
+ <error id="254">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Invalid month.]]>
+  </message>
+ </error>
+ <error id="255">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Invalid day.]]>
+  </message>
+ </error>
+ <error id="256">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Invalid message folder.]]>
+  </message>
+ </error>
+ <error id="257">
+  <module>api.messages</module>
+  <cmd>setunread</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to set a message read.]]>
+  </message>
+ </error>
+ <error id="258">
+  <module>api.messages</module>
+  <cmd>setunread</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="259">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to modify system messages.]]>
+  </message>
+ </error>
+ <error id="261">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Message subject is too short.]]>
+  </message>
+ </error>
+ <error id="262">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Message body is too short.]]>
+  </message>
+ </error>
+ <error id="263">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="264">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Unable to save XML file.]]>
+  </message>
+ </error>
+ <error id="265">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid language name.]]>
+  </message>
+ </error>
+ <error id="267">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid date format.]]>
+  </message>
+ </error>
+ <error id="268">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid setting for first day of the week.]]>
+  </message>
+ </error>
+ <error id="269">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid encoding.]]>
+  </message>
+ </error>
+ <error id="270">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid language code.]]>
+  </message>
+ </error>
+ <error id="271">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid Google language code.]]>
+  </message>
+ </error>
+ <error id="272">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid thousands separator character.]]>
+  </message>
+ </error>
+ <error id="273">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Invalid decimal point character.]]>
+  </message>
+ </error>
+ <error id="275">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Invalid label.]]>
+  </message>
+ </error>
+ <error id="276">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Invalid setting value.]]>
+  </message>
+ </error>
+ <error id="277">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Invalid explanation.]]>
+  </message>
+ </error>
+ <error id="278">
+  <module>api.messages</module>
+  <cmd>getautoreply</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="280">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to add or modify autoreplies.]]>
+  </message>
+ </error>
+ <error id="281">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Message body is too short.]]>
+  </message>
+ </error>
+ <error id="282">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Message subject is too short.]]>
+  </message>
+ </error>
+ <error id="283">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Information row is too short.]]>
+  </message>
+ </error>
+ <error id="284">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="285">
+  <module>api.messages</module>
+  <cmd>deleteautoreply</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete a predefined message.]]>
+  </message>
+ </error>
+ <error id="286">
+  <module>api.messages</module>
+  <cmd>deleteautoreply</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="287">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to translate a predefined message.]]>
+  </message>
+ </error>
+ <error id="288">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="289">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Invalid target language.]]>
+  </message>
+ </error>
+ <error id="290">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Source and target language are the same.]]>
+  </message>
+ </error>
+ <error id="291">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Source message does not exist.]]>
+  </message>
+ </error>
+ <error id="292">
+  <module>api.messages</module>
+  <cmd>translate_all_autoreplies</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to translate autoreplies.]]>
+  </message>
+ </error>
+ <error id="293">
+  <module>api.messages</module>
+  <cmd>translate_all_autoreplies</cmd>
+  <message>
+   <![CDATA[Invalid target language.]]>
+  </message>
+ </error>
+ <error id="294">
+  <module>api.messages</module>
+  <cmd>translate_all_autoreplies</cmd>
+  <message>
+   <![CDATA[Source and target language are the same.]]>
+  </message>
+ </error>
+ <error id="295">
+  <module>api.messages</module>
+  <cmd>deletemessage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete a message.]]>
+  </message>
+ </error>
+ <error id="296">
+  <module>api.messages</module>
+  <cmd>deletemessage</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="297">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to modify a message.]]>
+  </message>
+ </error>
+ <error id="298">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="299">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Invalid sender name.]]>
+  </message>
+ </error>
+ <error id="300">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Message text is too short.]]>
+  </message>
+ </error>
+ <error id="301">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Invalid e-mail address.]]>
+  </message>
+ </error>
+ <error id="302">
+  <module>api.messages</module>
+  <cmd>sendmessage</cmd>
+  <message>
+   <![CDATA[Please give us your name.]]>
+  </message>
+ </error>
+ <error id="303">
+  <module>api.messages</module>
+  <cmd>sendmessage</cmd>
+  <message>
+   <![CDATA[This message seems a bit too short.]]>
+  </message>
+ </error>
+ <error id="304">
+  <module>api.messages</module>
+  <cmd>sendmessage</cmd>
+  <message>
+   <![CDATA[This email address is invalid.]]>
+  </message>
+ </error>
+ <error id="305">
+  <module>api.messages</module>
+  <cmd>setreplied</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to set messages to replied.]]>
+  </message>
+ </error>
+ <error id="306">
+  <module>api.messages</module>
+  <cmd>setreplied</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="307">
+  <module>api.messages</module>
+  <cmd>setreplied</cmd>
+  <message>
+   <![CDATA[Invalid setting.]]>
+  </message>
+ </error>
+ <error id="308">
+  <module>api.messages</module>
+  <cmd>messagetofolder</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to move messages to folders.]]>
+  </message>
+ </error>
+ <error id="309">
+  <module>api.messages</module>
+  <cmd>messagetofolder</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="310">
+  <module>api.messages</module>
+  <cmd>messagetofolder</cmd>
+  <message>
+   <![CDATA[Invalid folder ID.]]>
+  </message>
+ </error>
+ <error id="311">
+  <module>api.messages</module>
+  <cmd>getreply</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to reply messages.]]>
+  </message>
+ </error>
+ <error id="312">
+  <module>api.messages</module>
+  <cmd>getreply</cmd>
+  <message>
+   <![CDATA[Invalid message ID.]]>
+  </message>
+ </error>
+ <error id="313">
+  <module>api.messages</module>
+  <cmd>getreply</cmd>
+  <message>
+   <![CDATA[Invalid autoreply ID.]]>
+  </message>
+ </error>
+ <error id="319">
+  <module>api.users</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[Search term is too short.]]>
+  </message>
+ </error>
+ <error id="320">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to send internal messages.]]>
+  </message>
+ </error>
+ <error id="321">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Invalid recipient address.]]>
+  </message>
+ </error>
+ <error id="322">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Invalid sender address.]]>
+  </message>
+ </error>
+ <error id="323">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Invalid CC address.]]>
+  </message>
+ </error>
+ <error id="324">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Subject is too short.]]>
+  </message>
+ </error>
+ <error id="325">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Message body is too short.]]>
+  </message>
+ </error>
+ <error id="326">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Search string is too short.]]>
+  </message>
+ </error>
+ <error id="327">
+  <module>api.system</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Invalid year.]]>
+  </message>
+ </error>
+ <error id="330">
+  <module>api.system</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Invalid month.]]>
+  </message>
+ </error>
+ <error id="331">
+  <module>api.gallery</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Search term is too short.]]>
+  </message>
+ </error>
+ <error id="332">
+  <module>api.system</module>
+  <cmd>getsetting</cmd>
+  <message>
+   <![CDATA[Invalid token.]]>
+  </message>
+ </error>
+ <error id="333">
+  <module>api.system</module>
+  <cmd>getsetting</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to access internal settings.]]>
+  </message>
+ </error>
+ <error id="334">
+  <module>api.system</module>
+  <cmd>getsetting</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to request all settings.]]>
+  </message>
+ </error>
+ <error id="335">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to resize images.]]>
+  </message>
+ </error>
+ <error id="336">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Invalid image ID.]]>
+  </message>
+ </error>
+ <error id="337">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Invalid rotation setting.]]>
+  </message>
+ </error>
+ <error id="338">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Invalid flip setting.]]>
+  </message>
+ </error>
+ <error id="339">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Invalid resize setting.]]>
+  </message>
+ </error>
+ <error id="340">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Invalid width value.]]>
+  </message>
+ </error>
+ <error id="341">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Invalid height value.]]>
+  </message>
+ </error>
+ <error id="342">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[There is nothing to do.]]>
+  </message>
+ </error>
+ <error id="343">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Could not save image.]]>
+  </message>
+ </error>
+ <error id="345">
+  <module>api.messages</module>
+  <cmd>getmasslist</cmd>
+  <message>
+   <![CDATA[Invalid list ID.]]>
+  </message>
+ </error>
+ <error id="346">
+  <module>api.messages</module>
+  <cmd>getmasslist</cmd>
+  <message>
+   <![CDATA[Invalid list ID.]]>
+  </message>
+ </error>
+ <error id="347">
+  <module>api.messages</module>
+  <cmd>deletemasslist</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to delete address lists.]]>
+  </message>
+ </error>
+ <error id="348">
+  <module>api.messages</module>
+  <cmd>deletemasslist</cmd>
+  <message>
+   <![CDATA[Invalid list ID.]]>
+  </message>
+ </error>
+ <error id="350">
+  <module>api.messages</module>
+  <cmd>savemasslist</cmd>
+  <message>
+   <![CDATA[This list is too short.]]>
+  </message>
+ </error>
+ <error id="351">
+  <module>api.messages</module>
+  <cmd>savemasslist</cmd>
+  <message>
+   <![CDATA[This title is too short.]]>
+  </message>
+ </error>
+ <error id="352">
+  <module>api.messages</module>
+  <cmd>getreplytemplate</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to get reply templates.]]>
+  </message>
+ </error>
+ <error id="353">
+  <module>api.messages</module>
+  <cmd>importmasslist</cmd>
+  <message>
+   <![CDATA[The imported text is too short.]]>
+  </message>
+ </error>
+ <error id="354">
+  <module>api.messages</module>
+  <cmd>importmasslist</cmd>
+  <message>
+   <![CDATA[This list can not be parsed. Perhaps you've selected the wrong separator?]]>
+  </message>
+ </error>
+ <error id="355">
+  <module>api.messages</module>
+  <cmd>importmasslist</cmd>
+  <message>
+   <![CDATA[Invalid separator.]]>
+  </message>
+ </error>
+ <error id="356">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[You need Administrator privileges to send mass mails.]]>
+  </message>
+ </error>
+ <error id="357">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Invalid address.]]>
+  </message>
+ </error>
+ <error id="358">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Subject is too short.]]>
+  </message>
+ </error>
+ <error id="359">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Body is too short.]]>
+  </message>
+ </error>
+ <error id="360">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Invalid sender.]]>
+  </message>
+ </error>
+ <error id="374">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[The password must not be the same as the username.]]>
+  </message>
+ </error>
+ <error id="1000">
+  <module>pgCMS</module>
+  <cmd>general error</cmd>
+  <message>
+   <![CDATA[PostgreSQL error: %errormsg%]]>
+  </message>
+ </error>
+ <error id="1001">
+  <module>pgCMS</module>
+  <cmd>general error</cmd>
+  <message>
+   <![CDATA[%errormsg%]]>
+  </message>
+ </error>
+</errors>

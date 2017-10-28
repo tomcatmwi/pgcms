@@ -1,0 +1,51 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=139></div>
+<div class="dialog_form_field">
+  <input type="text" id="to" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=140></div>
+<div class="dialog_form_field">
+  <input type="text" id="cc" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=132></div>
+<div class="dialog_form_field">
+  <input type="text" id="subject" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=126></div>
+<div class="dialog_form_field">
+  <input type="text" id="from" />
+</div>
+</div>
+
+<div class="dialog_form_container_noflex dialog_form_texteditor_container">
+  <div style="width: 100%; text-align: left; font-weight: bold;" pgcms=134></div>
+  <textarea id="body" class="dialog_texteditor"></textarea>
+</div>
+
+<input type="hidden" id="id" value=0 />
+
+<script type="text/javascript">
+
+    el = [];
+
+    el[0] = $('#body').rte({
+        controls_rte: rte_toolbar,
+        controls_html: html_toolbar,
+        css: [
+            ['../css/articles.css']
+        ]
+    });
+
+    $(el[0].body).attr('id', 'body');
+    $(el[0].body).attr('arrayIndex', 0);
+
+</script>

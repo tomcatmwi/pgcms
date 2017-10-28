@@ -1,0 +1,25 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=146></div>
+<div class="dialog_form_field">
+  <input type="text" id="youtube_url" onclick="$(this).select();" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=147></div>
+<div class="dialog_form_field">
+  <div style="overflow: hidden; white-space: nowrap;">
+  <input type="text" id="youtube_width" value="854" style="min-width: 4em !important; width: 4em !important; max-width: 4em !important;" /> &#215;
+  <input type="text" id="youtube_height" value="480" style="min-width: 4em !important; width: 4em !important; max-width: 4em !important;" />
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container_noflex">
+  <input type="checkbox" checked id="youtube_fullscreen" checked />
+  <label for="youtube_fullscreen" pgcms=148></label>
+</div>
+
+<script>
+  $('#youtube_url').select();
+</script>

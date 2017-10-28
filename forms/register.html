@@ -1,0 +1,210 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.name">Your full name:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_name" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.nickname">Nickname:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_nickname" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.username">Username:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_username" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.password">Password:</div>
+<div class="dialog_form_field">
+  <div class="dialog_multiedit">
+    <input type="password" id="registration_password1" />
+    <input type="password" id="registration_password2" style="margin-left: 0.5em;" />
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.language">Language:</div>
+<div class="dialog_form_field">
+    <select id="registration_language"></select>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.email">Email:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_email" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.phone">Phone number:</div>
+<div class="dialog_form_field">
+  <div class="dialog_multiedit">
+    <input type="text" id="registration_phone1" style="max-width: 15%" />
+    <input type="text" id="registration_phone2" style="max-width: 15%; margin-left: 0.5em;" />
+    <input type="text" id="registration_phone3" style="margin-left: 0.5em;" />
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.country">Country:</div>
+<div class="dialog_form_field">
+  <div style="overflow: hidden; white-space: nowrap;">
+    <select id="registration_country" onchange="changecountry();" style="width: 100%; min-width: 100%; max-width: 100%;"></select>
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.state">State or province:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_state" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.zipcity">Zip and city:</div>
+<div class="dialog_form_field">
+  <div class="dialog_multiedit">
+    <input type="text" id="registration_zip" style="max-width: 15%;" />
+    <input type="text" id="registration_city" style="margin-left: 0.5em;" />
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.streetaddress">Street address:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_address" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_field" style="margin-left: 20%; max-width: 100%; width: 100% !important;">
+  <input type="checkbox" id="registration_companydata" onchange="openpanel('company_data');" />
+  <label for="registration_companydata" pgcms="registration.company_data">I am representing a company</label><br />
+</div>
+</div>
+
+<div id="company_data" style="display: none;">
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.company">Company name:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_company" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.company_country">Country:</div>
+<div class="dialog_form_field">
+  <div style="overflow: hidden; white-space: nowrap;">
+    <select id="registration_company_country" style="width: 100%; min-width: 100%; max-width: 100%;"></select>
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.company_state">State or province:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_company_state" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.company_zipcity">Zip and city:</div>
+<div class="dialog_form_field">
+  <div class="dialog_multiedit">
+    <input type="text" id="registration_company_zip" style="max-width: 15%;" />
+    <input type="text" id="registration_company_city" style="margin-left: 0.5em;" />
+  </div>
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms="registration.company_streetaddress">Street address:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_company_address" />
+</div>
+</div>
+
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_field" style="margin-left: 20%; max-width: 100%; width: 100% !important;">
+  <input type="checkbox" id="registration_newsletter" />
+  <label for="registration_newsletter" pgcms="registration.newsletter">I would like to receive the newsletter</label><br />
+</div>
+</div>
+
+<div class="dialog_form_container" id="registration_captchadiv">
+<div class="dialog_form_label" pgcms="contactform.captcha">Please enter this code:</div>
+<div class="dialog_form_field">
+  <input type="text" id="registration_captcha" /><br />
+  <img id="registration_captcha_image" class="captcha" /><br />
+  <a pgcms="general.captcha_retry" onclick="newcaptcha('registration_captcha_image');">Give me another</a>
+</div>
+</div>
+
+<input type="hidden" id="registration_id" value=0 />
+<script type="text/javascript">
+
+function changecountry() {
+
+    $('#registration_phone1').val($(document.countries_xml).find('[id=' + $('#registration_country').val() + ']').find('phonecode').text());
+    var language = $(document.countries_xml).find('[id=' + $('#registration_country').val() + ']').find('language').text();
+
+    if ($('#registration_language option[value=' + language + ']').length > 0) {
+        $('#registration_language').val(language);
+    } else {
+        $('#registration_language').val(document.default_language);
+    }
+}
+
+    //  get default language
+
+    $.ajax({
+        type: 'POST',
+        url: 'api/api.system.php',
+        data: 'cmd=getsetting&token=DEFAULT_LANGUAGE',
+        dataType: 'xml',
+
+        complete: function(xhr) {
+            if (xhr.responseText == null || xhr.responseText == '') return false;
+
+            var error = 0;
+            $(xml).find('error').each(function() {
+                errormsg($(this).find('message').text());
+                error = $(this).find('id').text();
+            });
+
+            if (error == 0) {
+                var xml = jQuery.parseXML(xhr.responseText);
+                document.default_language = $(xml).find('value').text();
+            }
+
+        }
+    });
+
+    //  get list of countries
+
+    $.ajax({
+        type: 'GET',
+        url: 'xmldata/countries.xml?rnd=' + $.now(),
+        dataType: 'xml',
+
+        complete: function(xhr) {
+            if (xhr.responseText == null || xhr.responseText == '') return false;
+            document.countries_xml = jQuery.parseXML(xhr.responseText);
+        }
+    });
+
+</script>

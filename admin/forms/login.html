@@ -1,0 +1,31 @@
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=112></div>
+<div class="dialog_form_field">
+  <input type="text" id="username" />
+</div>
+</div>
+
+<div class="dialog_form_container">
+<div class="dialog_form_label" pgcms=113></div>
+<div class="dialog_form_field">
+  <input type="password" id="password" />
+</div>
+</div>
+
+<div class="dialog_form_container_noflex">
+  <input type="checkbox" id="remember" /><label for="remember" pgcms=114></label>
+  <br />
+  <a onclick="forgotpsw();" pgcms=115></a>
+</div>
+
+<script>
+
+  $('#password').keyup(function(event) {
+    if (event.keyCode == 13) { login(); }
+  });
+
+  $('#username').keyup(function(event) {
+    if (event.keyCode == 13) { login(); }
+  });
+
+</script>

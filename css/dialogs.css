@@ -1,0 +1,332 @@
+.popup a {
+  cursor: pointer;
+  color: #0000DD;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+.popup a:hover {
+  text-decoration: underline;
+}
+
+.dialog_darken {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .7;
+  z-index: 10000;
+}
+
+.errormsg {
+  width: 100%;
+  padding: 10px;
+  border-top: 3px solid #FF0000;
+  border-bottom: 3px solid #FF0000;
+  background: #C42222;
+  color: #DDDDDD;
+  position: fixed;
+  top: 10px;
+  opacity: 0.9;
+  z-index: 10001;
+  font-size: 1.1em;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  -webkit-display: flex;
+  -ms-display: flex;
+  font-size: 10pt;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+}
+
+.warningmsg {
+  background: #C4C400;
+  color: #000000;
+  border-top: 3px solid #DDDD00;
+  border-bottom: 3px solid #DDDD00;
+}
+
+.infomsg {
+  background: #00C400;
+  color: #000000;
+  border-top: 3px solid #00DD00;
+  border-bottom: 3px solid #00DD00;
+}
+
+#errormsg_text {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  max-width: 90%;
+  display: inline-block;
+  margin-top: 6px;
+  white-space: no-wrap;
+  overflow: hidden;
+}
+
+.popup {
+  visibility: hidden;
+  position: fixed;
+  width: auto;
+  min-width: 40vw;
+  max-width: 90vw;
+  height: auto;
+  min-height: 20vh;
+  max-height: 90vh;
+  z-index: 100000;
+  border: 1px solid #949494;
+  background-color: #FFFFFF;
+  padding: 0.6em;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-display: flex;
+  -ms-display: flex;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 10pt;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  border-radius: 0.5em;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 980px) {
+  .popup {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0.5em;
+    width: 100%;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    font-size: 8pt;
+    padding: 0em;
+ }
+}
+
+.popup_header, .popup_footer {
+    font-weight: bold;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    vertical-align: middle;
+    box-model: border-box;
+    ms-box-model: border-box;
+    webkit-box-model: border-box;
+    height: 2.4em;
+    line-height: 2.4em;
+}
+
+@media screen and (max-width: 980px) {
+  .popup_header, .popup_footer {
+    font-size: 8pt;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+}
+
+.popup_header {
+    order: 1;
+    -webkit-order: 1;
+    height: auto;
+    min-height: 25pt;
+}
+
+.popup_footer {
+    font-weight: normal;
+    order: 3;
+    -webkit-order: 3;
+    height: auto;
+    min-height: 27pt;
+}
+
+.popup_text_container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    order: 2;
+    -webkit-order: 2;
+    flex-grow: 5;
+    -webkit-flex-grow: 5;
+    -ms-flex-grow: 5;
+    height: auto;
+    display: flex;
+    -webkit-display: flex;
+    -ms-display: flex;
+    width: 100%;
+    min-width: 100%;
+}
+
+.popup_text {
+    width: 100% !important;
+    min-width: 100%;
+    text-align: center;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.popup input[type=button] {
+    width: auto;
+    min-width: 6em;
+    height: auto;
+    min-height: 2em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    border: 1px solid #A9A9A9;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #f2f2f2 0%,#ebebeb 50%,#e1e1e1 51%,#fefefe 100%);
+    font-size: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+}
+
+.popup input[type=text], .popup input[type=password], .popup select {
+    width: calc(100% - 1em);
+    max-width: calc(100% - 1em);
+    min-width: 80px;
+    background-color: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    min-height: 20px;
+    max-height: 26px;
+    color: #33338C;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.popup textarea {
+    width: calc(100% - 1em);
+    min-width: 80px;
+    max-width: 100%;
+    resize: none;
+    height: 20vh;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.dialog_multiedit {
+    width: calc(100% - 1em);
+    display: flex;
+    flex-direction: row;
+    webkit-flex-direction: row;
+    ms-flex-direction: row;
+}
+
+.popup input[type=checkbox] {
+    width: 12pt;
+    height: 12pt;
+    margin-right: 6pt;
+    vertical-align: middle;
+}
+
+.popup label {
+    margin-top: 6pt;
+    cursor: pointer;
+}
+
+.popup p {
+    max-width: 100%;
+    width: 100%;
+    font-size: 8pt;
+}
+.dialog_form_container {
+    width: 100%;
+    min-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    vertical-align: top;
+    text-align: left;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    align-items: top;
+    -webkit-align-items: top;
+    -ms-align-items: top;
+    justify-content: left;
+    -webkit-justify-content: left;
+    -ms-justify-content: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.dialog_form_label {
+    text-align: right;
+    display: inline-block;
+    width: 30%;
+    min-width: 30%;
+    padding-right: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 0;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.dialog_form_field {
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.dialog_texteditor {
+    width: 100%;
+    height: 30vh;
+    max-height: 50em;
+}
+
+.dialog_form_container_noflex {
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    box-model: border-box;
+    -webkit-box-model: border-box;
+    -ms-box-model: border-box;
+}
+
+.dialog_form_texteditor_container {
+    min-width: 70vw;
+}
+
+.dialog_form_container_noflex input[type=text], .popup_noflex input[type=password], .popup_noflex select {
+    width: calc(100% - 3em) !important;
+    min-width: 3em !important;
+    max-width: calc(100% - 3em) !important;
+}
+
+.dialog_form_container_noflex input[type=checkbox] {
+    width: 12pt;
+    height: 12pt;
+    margin-right: 6pt;
+    vertical-align: middle;
+}
+
+.dialog_form_container_noflex label {
+    margin-top: 6pt;
+    cursor: pointer;
+}

@@ -1,0 +1,133 @@
+<div class="gallery">
+<div class="gallery_bar" style="margin-right: 5px; width: 30%; max-width: 30%;">
+
+  <div style="margin-bottom: 10px;">
+    <select id="gallery_year" onchange="loadgallery(null, $('#gallery_year').val(), $('#gallery_month').val(), null);"></select>
+    <select id="gallery_month" onchange="loadgallery(null, $('#gallery_year').val(), $('#gallery_month').val(), null);">
+      <option value="1" pgcms=47></option>
+      <option value="2" pgcms=48></option>
+      <option value="3" pgcms=49></option>
+      <option value="4" pgcms=50></option>
+      <option value="5" pgcms=51></option>
+      <option value="6" pgcms=52></option>
+      <option value="7" pgcms=53></option>
+      <option value="8" pgcms=54></option>
+      <option value="9" pgcms=55></option>
+      <option value="10" pgcms=56></option>
+      <option value="11" pgcms=57></option>
+      <option value="12" pgcms=58></option>
+    </select>
+  </div>
+  
+  <select id="gallery_list" size=20></select><br />
+  
+  <img src="../pic/icon_new.png" class="icon" pgcms=59 onclick="gallery_new();" />
+  <img src="../pic/icon_edit.png" class="icon" pgcms=60 onclick="gallery_edit($('#gallery_list').val());" />
+  <img src="../pic/icon_delete.png" class="icon" pgcms=9 onclick="gallery_delete($('#gallery_list').val());" />
+  <img src="../pic/icon_magic.png" class="icon" pgcms=61 onclick="gallery_resize();" />
+  <img src="../pic/icon_search.png" class="icon" pgcms=62 onclick="gallery_search();" />
+  
+  <div class="gallery_info" id="gallery_insertparams" style="width: 70%; max-width: 70%;">
+
+    <span style="font-weight: bold;" pgcms=63></span><br />
+    <select id="gallery_insertmode_size" style="min-width: 100% !important; margin-bottom: 1em;">
+      <option value=0 pgcms=64></option>
+      <option value=1 pgcms=65></option>
+      <option value=2 pgcms=66></option>
+    </select><br />
+
+    <select id="gallery_insertmode_align" style="min-width: 100% !important; margin-bottom: 1em;">
+      <option value=0 pgcms=67></option>
+      <option value=1 pgcms=68></option>
+      <option value=2 pgcms=69></option>
+    </select>
+    <input type="checkbox" id="gallery_caption_enable" />
+    <label for="gallery_caption_enable" pgcms=70></label>
+    
+  </div>
+</div>
+
+<div class="gallery_bar" style="margin-left: 5px;">
+  
+  <div class="gallery_preview_container">
+    <span class="gallery_preview_helper"></span>
+    <span id="gallery_preview_holder"></span>
+  </div>
+
+  <div class="gallery_info" ondblclick="modifycaption();">
+    <span id="gallery_caption_preview" style="display: block;" pgcms=72></span>
+    <input id="gallery_caption" type="hidden" />
+    <input type="text" id="gallery_caption_update" style="min-width: 100% !important; display: none;" />
+  </div>
+  
+  <div id="gallery_pic_info" class="gallery_info">
+    <div class="gallery_info_title" pgcms=73></div><div class="gallery_info_value" id="gallery_info_1" pgcms=74></div>
+    <div class="gallery_info_title" pgcms=75></div><div class="gallery_info_value" id="gallery_info_2" pgcms=74>Ismeretlen</div>
+    <div class="gallery_info_title" pgcms=76></div><div class="gallery_info_value" id="gallery_info_3" pgcms=74>Ismeretlen</div>
+    <div class="gallery_info_title" pgcms=77></div><div class="gallery_info_value" id="gallery_info_4" pgcms=74>Ismeretlen</div>
+    <div class="gallery_info_title" pgcms=78></div><div class="gallery_info_value" id="gallery_info_5" pgcms=74>Ismeretlen</div>
+  </div>
+
+</div>
+
+<script type="text/javascript">
+
+function modifycaption() {
+  if ($('#gallery_caption_preview').css('display') == 'block') {
+
+    $('#gallery_list').prop('disabled', true);
+    $('#gallery_caption_preview').css('display', 'none');
+    $('#gallery_caption_update').css('display', 'block');
+    $('#gallery_caption_update').val($.trim($('#gallery_caption').html()));
+    $('#gallery_caption_update').focus();
+    $('#gallery_caption_update').select();
+    $('#gallery_caption_update').unbind('keyup');
+    $('#gallery_caption_update').keyup(function(e) { 
+
+        if(e.keyCode == 27) {
+
+            $('#gallery_list').prop('disabled', false);
+            $('#gallery_caption_preview').css('display', 'block');
+            $('#gallery_caption_update').css('display', 'none');
+        }
+        
+        if (e.keyCode == 13) {
+
+            $('#gallery_caption_preview').css('display', 'block');
+            $('#gallery_caption_update').css('display', 'none');
+            $('#gallery_list').prop('disabled', false);
+
+            $.ajax({
+                type: 'POST',
+                cache: 'false',
+                url: '../api/api.gallery.php',
+                data: 'cmd=updatecaption&'+
+                      'id='+$('#gallery_list').val()+'&'+
+                      'caption='+encodeURIComponent($('#gallery_caption_update').val()),
+                dataType: 'html',
+
+                complete: function(xhr, status) {
+
+                  if (xhr.responseText == null || xhr.responseText == '') return false;
+                  var xml = $.parseXML(xhr.responseText);
+                  
+                  var error = 0;
+                  $(xml).find('error').each(function(){
+                    errormsg($(this).find('message').text());
+                    error = $(this).find('id').text();
+                  });
+                  
+                  if (error == 0) {
+                    $('#gallery_caption_preview').html($.trim($('#gallery_caption_update').val()));
+                    $('#gallery_caption_enable').prop('disabled', false);
+                    $('#gallery_caption_enable').prop('checked', true);
+                  }
+                }
+            });
+        }
+    });
+
+  } 
+}
+
+</script>

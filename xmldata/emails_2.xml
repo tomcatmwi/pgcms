@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<emails><email><id>header</id><subject>Fejléc</subject><explanation>Fejléc az email üzenetekhez</explanation><body><![CDATA[<b>Kedves %name%!</b><br><br>]]></body></email><email><id>signature</id><subject>pgCMS: Válasz az Ön megkeresésére</subject><explanation>Aláírás a rendszerből küldött email üzenetekhez</explanation><body><![CDATA[
+      <br /><br />
+      Üdvözlettel,<br />
+      <b>%sendername%</b><br />
+      <a href="mailto:%senderemail%">%senderemail%</a>
+    ]]></body></email><email><id>signature_autoreply</id><subject>Aláírás</subject><explanation>Aláírás az automatikus üzenetekhez</explanation><body><![CDATA[
+      <br /><br />
+      <b>Pixeldog pgCMS Admin</b>
+      <br />
+      <span style="font-size: 10px;">
+        Ez egy automatikus üzenet. Kérjük, ne válaszoljon rá!
+      </span>
+    ]]></body></email><email><id>registration_confirm</id><subject>pgCMS: Regisztráció megerősítése</subject><explanation>Regisztráció megerősítése</explanation><body><![CDATA[
+      Kérjük erősítse meg, hogy regisztrálni szeretne pgCMS rendszerünkben a %frontend_root% címen.
+      <br /><br />
+      A megerősítéshez <a href="%frontend_root%register_confirm.php?id=%resetcode%">kattintson ide,</a> vagy másolja az alábbi linket a böngészője címsorába:
+      <br /><br />
+      %frontend_root%register_confirm.php?id=%resetcode%
+    ]]></body></email><email><id>forgot_password</id><subject>pgCMS: Elfelejtett jelszó</subject><explanation>Elfelejtett felhasználónév vagy jelszó</explanation><body><![CDATA[
+      Sajnáljuk, hogy problémába ütközött.
+      <br /><br />
+      Ahhoz, hogy új felhasználónevet vagy jelszót állítson be pgCMS rendszerünkben, kérjük,
+      <a href="%frontend_root%resetpassword.php?id=%resetcode%">kattintson erre a linkre,</a> vagy másolja az alábbi címet a böngészője címsorába:
+      <br /><br />
+      %frontend_root%resetpassword.php?id=%resetcode%
+    ]]></body></email></emails>

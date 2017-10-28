@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png"  href="../pic/pixeldog_mini.png">
+    
+    <title>pgCMS admin</title>
+
+<style>
+
+input[type=text] {
+  margin: 3px;
+  padding: 2px;
+}
+
+input[type=text]:focus {
+  background-color: yellow;
+}
+
+</style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+  document.counter = 0;
+
+        $.ajax({
+            type: 'GET',
+            cache: 'false',
+            url: '../xmldata/errors_2.xml?rnd=' + $.now(),
+            dataType: 'xml',
+
+            error: function() {
+                preloader(false);
+                alert('Error: Can\'t load XML');
+            },
+
+            complete: function(xhr) {
+
+                try {
+                    xml = jQuery.parseXML(xhr.responseText);
+                } catch (err) {
+                    return false;
+                }
+                
+                for (t=1; t<374; t++) {
+                  if ($(xml).find('error[id='+t+']').length == 0) $('#result').append(t+'<br />');
+                }
+                
+                
+            }
+        });
+
+});
+
+</script>
+
+</head>
+<body>
+
+<div id="result"></div>
+
+
+</body>
+</html>

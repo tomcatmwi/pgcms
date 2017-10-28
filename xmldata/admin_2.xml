@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<texts>
+
+<!-- pgCMS admin localization file - Hungarian / Magyar -->
+
+<text id="1">
+  <text><![CDATA[olvasatlan üzenet]]></text>
+</text>
+
+<text id="2">
+  <text><![CDATA[Üdvözöllek!]]></text>
+</text>
+
+<text id="3">
+  <text><![CDATA[Én vagyok a pgCMS adminisztrációs felülete.]]></text>
+</text>
+
+<text id="4">
+  <text><![CDATA[Tartalomcsoportok]]></text>
+</text>
+
+<text id="5">
+  <text><![CDATA[Új tartalomcsoport]]></text>
+</text>
+
+<text id="6">
+  <text><![CDATA[Token]]></text>
+</text>
+
+<text id="7">
+  <text><![CDATA[Információ]]></text>
+</text>
+
+<text id="8">
+  <text><![CDATA[Szerkesztés]]></text>
+</text>
+
+<text id="9">
+  <text><![CDATA[Törlés]]></text>
+</text>
+
+<text id="10">
+  <text><![CDATA[Fordítás]]></text>
+</text>
+
+<text id="11">
+  <text><![CDATA[Információ a csoportról:]]></text>
+</text>
+
+<text id="12">
+  <text><![CDATA[Néhány szó arról, hogy ez a csoport hová tartozik, pl. melyik aloldalhoz, vagy annak mely részéhez.]]></text>
+</text>
+
+<text id="13">
+  <text><![CDATA[Token:]]></text>
+</text>
+
+<text id="14">
+  <text><![CDATA[Az ékezetes betűket, szóközöket, stb. automatikusan kiirtja a pgCMS. Így pl. "Hajmási Péter, Hajmási Pál"-ból "hajmasi_peter_hajmasi_pal" lesz.]]></text>
+</text>
+
+<text id="15">
+  <text><![CDATA[Biztosan törölni szeretnéd ezt a csoportot?]]></text>
+</text>
+
+<text id="16">
+  <text><![CDATA[A benne levő szövegeket és cikkeket is]]></text>
+</text>
+
+<text id="17">
+  <text><![CDATA[Cím:]]></text>
+</text>
+
+<text id="18">
+  <text><![CDATA[Token:]]></text>
+</text>
+
+<text id="19">
+  <text><![CDATA[Közzététel ideje:]]></text>
+</text>
+
+<text id="20">
+  <text><![CDATA[Csoport:]]></text>
+</text>
+
+<text id="21">
+  <text><![CDATA[Információs sor:]]></text>
+</text>
+
+<text id="22">
+  <text><![CDATA[Általános információ a szöveg tartalmáról. Minden nyelven azonos.]]></text>
+</text>
+
+<text id="23">
+  <text><![CDATA[Bevezető szöveg:]]></text>
+</text>
+
+<text id="24">
+  <text><![CDATA[Törzsszöveg:]]></text>
+</text>
+
+<text id="25">
+  <text><![CDATA[Biztos, hogy törölni szeretnéd ezt a cikket?<br />A törlés nem visszafordítható!]]></text>
+</text>
+
+<text id="26">
+  <text><![CDATA[Minden nyelvről törölni szeretném]]></text>
+</text>
+
+<text id="27">
+  <text><![CDATA[Tartalomcsoport:]]></text>
+</text>
+
+<text id="28">
+  <text><![CDATA[Információ:]]></text>
+</text>
+
+<text id="29">
+  <text><![CDATA[ID:]]></text>
+</text>
+
+<text id="30">
+  <text><![CDATA[Létrehozva:]]></text>
+</text>
+
+<text id="31">
+  <text><![CDATA[Lefordítva:]]></text>
+</text>
+
+<text id="32">
+  <text><![CDATA[Fordította:]]></text>
+</text>
+
+<text id="33">
+  <text><![CDATA[Célnyelv:]]></text>
+</text>
+
+<text id="34">
+  <text><![CDATA[Írja felül a régit, ha van]]></text>
+</text>
+
+<text id="35">
+  <text><![CDATA[Ország azonosítója:]]></text>
+</text>
+
+<text id="36">
+  <text><![CDATA[Ország neve:]]></text>
+</text>
+
+<text id="37">
+  <text><![CDATA[Ország angol neve:]]></text>
+</text>
+
+<text id="38">
+  <text><![CDATA[Főváros:]]></text>
+</text>
+
+<text id="39">
+  <text><![CDATA[Valuta azonosítója:]]></text>
+</text>
+
+<text id="40">
+  <text><![CDATA[Telefonos országkód:]]></text>
+</text>
+
+<text id="41">
+  <text><![CDATA[Alapértelmezett nyelv:]]></text>
+</text>
+
+<text id="42">
+  <text><![CDATA[-- Nincs megadva --]]></text>
+</text>
+
+<text id="43">
+  <text><![CDATA[Angolszász mértékegységet használnak:]]></text>
+</text>
+
+<text id="44">
+  <text><![CDATA[Nem]]></text>
+</text>
+
+<text id="45">
+  <text><![CDATA[Igen]]></text>
+</text>
+
+<text id="46">
+  <text><![CDATA[Választható:]]></text>
+</text>
+
+<text id="47">
+  <text><![CDATA[január]]></text>
+</text>
+
+<text id="48">
+  <text><![CDATA[február]]></text>
+</text>
+
+<text id="49">
+  <text><![CDATA[március]]></text>
+</text>
+
+<text id="50">
+  <text><![CDATA[április]]></text>
+</text>
+
+<text id="51">
+  <text><![CDATA[május]]></text>
+</text>
+
+<text id="52">
+  <text><![CDATA[június]]></text>
+</text>
+
+<text id="53">
+  <text><![CDATA[július]]></text>
+</text>
+
+<text id="54">
+  <text><![CDATA[augusztus]]></text>
+</text>
+
+<text id="55">
+  <text><![CDATA[szeptember]]></text>
+</text>
+
+<text id="56">
+  <text><![CDATA[október]]></text>
+</text>
+
+<text id="57">
+  <text><![CDATA[november]]></text>
+</text>
+
+<text id="58">
+  <text><![CDATA[december]]></text>
+</text>
+
+<text id="59">
+  <text><![CDATA[Új kép]]></text>
+</text>
+
+<text id="60">
+  <text><![CDATA[Módosítás]]></text>
+</text>
+
+<text id="61">
+  <text><![CDATA[Képműveletek]]></text>
+</text>
+
+<text id="62">
+  <text><![CDATA[Keresés]]></text>
+</text>
+
+<text id="63">
+  <text><![CDATA[Beillesztés módja:]]></text>
+</text>
+
+<text id="64">
+  <text><![CDATA[Thumbnail]]></text>
+</text>
+
+<text id="65">
+  <text><![CDATA[Normál méret]]></text>
+</text>
+
+<text id="66">
+  <text><![CDATA[Teljes méret]]></text>
+</text>
+
+<text id="67">
+  <text><![CDATA[Normál beillesztés]]></text>
+</text>
+
+<text id="68">
+  <text><![CDATA[Balra, szöveggel körülfolyatva (float: left)]]></text>
+</text>
+
+<text id="69">
+  <text><![CDATA[Jobbra, szöveggel körülfolyatva (float: right)]]></text>
+</text>
+
+<text id="70">
+  <text><![CDATA[A képaláírás jelenjen meg]]></text>
+</text>
+
+<text id="71">
+  <text><![CDATA[Előnézet]]></text>
+</text>
+
+<text id="72">
+  <text><![CDATA[Nincs képaláírás]]></text>
+</text>
+
+<text id="73">
+  <text><![CDATA[Fájlnév:]]></text>
+</text>
+
+<text id="74">
+  <text><![CDATA[Ismeretlen]]></text>
+</text>
+
+<text id="75">
+  <text><![CDATA[Fájlméret:]]></text>
+</text>
+
+<text id="76">
+  <text><![CDATA[Képméret:]]></text>
+</text>
+
+<text id="77">
+  <text><![CDATA[Feltöltve:]]></text>
+</text>
+
+<text id="78">
+  <text><![CDATA[Feltöltötte:]]></text>
+</text>
+
+<text id="79">
+  <text><![CDATA[Átméretezés:]]></text>
+</text>
+
+<text id="80">
+  <text><![CDATA[-- Nincs átméretezés --]]></text>
+</text>
+
+<text id="81">
+  <text><![CDATA[Átméretezés]]></text>
+</text>
+
+<text id="82">
+  <text><![CDATA[Arányok megtartása]]></text>
+</text>
+
+<text id="83">
+  <text><![CDATA[Elforgatás:]]></text>
+</text>
+
+<text id="84">
+  <text><![CDATA[-- Nincs elforgatás --]]></text>
+</text>
+
+<text id="85">
+  <text><![CDATA[Jobbra 90 fok]]></text>
+</text>
+
+<text id="86">
+  <text><![CDATA[Balra 90 fok]]></text>
+</text>
+
+<text id="87">
+  <text><![CDATA[180 fok]]></text>
+</text>
+
+<text id="88">
+  <text><![CDATA[Tükrözés:]]></text>
+</text>
+
+<text id="89">
+  <text><![CDATA[-- Nincs tükrözés --]]></text>
+</text>
+
+<text id="90">
+  <text><![CDATA[Vízszintesen]]></text>
+</text>
+
+<text id="91">
+  <text><![CDATA[Függőlegesen]]></text>
+</text>
+
+<text id="92">
+  <text><![CDATA[Keresés:]]></text>
+</text>
+
+<text id="93">
+  <text><![CDATA[A szűrés megszüntetéséhez hagyd üresen a mezőt.]]></text>
+</text>
+
+<text id="94">
+  <text><![CDATA[Kép:]]></text>
+</text>
+
+<text id="95">
+  <text><![CDATA[Keresés]]></text>
+</text>
+
+<text id="96">
+  <text><![CDATA[Információ (minden nyelven azonos):]]></text>
+</text>
+
+<text id="97">
+  <text><![CDATA[Képaláírás:]]></text>
+</text>
+
+<text id="98">
+  <text><![CDATA[Nyelv neve:]]></text>
+</text>
+
+<text id="99">
+  <text><![CDATA[Angol név:]]></text>
+</text>
+
+<text id="100">
+  <text><![CDATA[Dátumforma:]]></text>
+</text>
+
+<text id="101">
+  <text><![CDATA[Pl.: "Y. m. d."]]></text>
+</text>
+
+<text id="102">
+  <text><![CDATA[Kódolás:]]></text>
+</text>
+
+<text id="103">
+  <text><![CDATA[Pl: "utf8" vagy "latin-1"]]></text>
+</text>
+
+<text id="104">
+  <text><![CDATA[Nyelvkód:]]></text>
+</text>
+
+<text id="105">
+  <text><![CDATA[Pl: "en-EN" vagy "hu-HU"]]></text>
+</text>
+
+<text id="106">
+  <text><![CDATA[Google kód:]]></text>
+</text>
+
+<text id="107">
+  <text><![CDATA[Pl: "en" vagy "hu"]]></text>
+</text>
+
+<text id="108">
+  <text><![CDATA[Ezrestagoló:]]></text>
+</text>
+
+<text id="109">
+  <text><![CDATA[Egy karakter, ez tagolja a nagy számokat ezresenként.]]></text>
+</text>
+
+<text id="110">
+  <text><![CDATA[Tizedespont:]]></text>
+</text>
+
+<text id="111">
+  <text><![CDATA[Ez választja el az egész számot a tizedesrésztől.]]></text>
+</text>
+
+<text id="112">
+  <text><![CDATA[Felhasználónév:]]></text>
+</text>
+
+<text id="113">
+  <text><![CDATA[Jelszó:]]></text>
+</text>
+
+<text id="114">
+  <text><![CDATA[Emlékezzen rám]]></text>
+</text>
+
+<text id="115">
+  <text><![CDATA[Elfelejtettem a jelszót]]></text>
+</text>
+
+<text id="116">
+  <text><![CDATA[E-mail címed:]]></text>
+</text>
+
+<text id="117">
+  <text><![CDATA[Elválasztó karakter:]]></text>
+</text>
+
+<text id="118">
+  <text><![CDATA[Vessző]]></text>
+</text>
+
+<text id="119">
+  <text><![CDATA[Sortörés]]></text>
+</text>
+
+<text id="120">
+  <text><![CDATA[Szóköz]]></text>
+</text>
+
+<text id="121">
+  <text><![CDATA[Lista neve:]]></text>
+</text>
+
+<text id="122">
+  <text><![CDATA[Más felhasználók is használhassák]]></text>
+</text>
+
+<text id="123">
+  <text><![CDATA[Küldési időköz, mp:]]></text>
+</text>
+
+<text id="124">
+  <text><![CDATA[Név nélküli címzettek megszólítása:]]></text>
+</text>
+
+<text id="125">
+  <text><![CDATA[Címzett]]></text>
+</text>
+
+<text id="126">
+  <text><![CDATA[Feladó:]]></text>
+</text>
+
+<text id="127">
+  <text><![CDATA[Saját néven]]></text>
+</text>
+
+<text id="128">
+  <text><![CDATA[A rendszer nevében (no-reply)]]></text>
+</text>
+
+<text id="129">
+  <text><![CDATA[Mappa címe:]]></text>
+</text>
+
+<text id="130">
+  <text><![CDATA[Biztosan törölni szeretnéd ezt a mappát?]]></text>
+</text>
+
+<text id="131">
+  <text><![CDATA[A benne levő üzeneteket is]]></text>
+</text>
+
+<text id="132">
+  <text><![CDATA[Tárgysor:]]></text>
+</text>
+
+<text id="133">
+  <text><![CDATA[Információ:]]></text>
+</text>
+
+<text id="134">
+  <text><![CDATA[Levél szövege:]]></text>
+</text>
+
+<text id="135">
+  <text><![CDATA[Célnyelv:]]></text>
+</text>
+
+<text id="136">
+  <text><![CDATA[Küldő neve:]]></text>
+</text>
+
+<text id="137">
+  <text><![CDATA[Küldő emailcíme:]]></text>
+</text>
+
+<text id="138">
+  <text><![CDATA[Üzenet szövege:]]></text>
+</text>
+
+<text id="139">
+  <text><![CDATA[Címzett:]]></text>
+</text>
+
+<text id="140">
+  <text><![CDATA[Másolatot kap:]]></text>
+</text>
+
+<text id="141">
+  <text><![CDATA[Link URL:]]></text>
+</text>
+
+<text id="142">
+  <text><![CDATA[Megnyitás:]]></text>
+</text>
+
+<text id="143">
+  <text><![CDATA[Ugyanebben az ablakban (_self)]]></text>
+</text>
+
+<text id="144">
+  <text><![CDATA[Új ablakban (_blank)]]></text>
+</text>
+
+<text id="145">
+  <text><![CDATA[Szülőablakban (_parent)]]></text>
+</text>
+
+<text id="146">
+  <text><![CDATA[YouTube URL:]]></text>
+</text>
+
+<text id="147">
+  <text><![CDATA[Méret:]]></text>
+</text>
+
+<text id="148">
+  <text><![CDATA[Teljes képernyő engedélyezése]]></text>
+</text>
+
+<text id="149">
+  <text><![CDATA[Beállítás:]]></text>
+</text>
+
+<text id="150">
+  <text><![CDATA[Érték:]]></text>
+</text>
+
+<text id="151">
+  <text><![CDATA[Magyarázat:]]></text>
+</text>
+
+<text id="152">
+  <text><![CDATA[Szöveg:]]></text>
+</text>
+
+<text id="153">
+  <text><![CDATA[Biztos, hogy törölni szeretnéd ezt a szöveget?<br />A törlés nem visszafordítható!]]></text>
+</text>
+
+<text id="154">
+  <text><![CDATA[Lefordított szöveg:]]></text>
+</text>
+
+<text id="155">
+  <text><![CDATA[Teljes név]]></text>
+</text>
+
+<text id="156">
+  <text><![CDATA[Becenév, fórumnév:]]></text>
+</text>
+
+<text id="157">
+  <text><![CDATA[Email:]]></text>
+</text>
+
+<text id="158">
+  <text><![CDATA[Telefon:]]></text>
+</text>
+
+<text id="159">
+  <text><![CDATA[Cég neve:]]></text>
+</text>
+
+<text id="160">
+  <text><![CDATA[Cég címe:]]></text>
+</text>
+
+<text id="161">
+  <text><![CDATA[Nyelv:]]></text>
+</text>
+
+<text id="162">
+  <text><![CDATA[Jogosultságok:]]></text>
+</text>
+
+<text id="163">
+  <text><![CDATA[Ország:]]></text>
+</text>
+
+<text id="164">
+  <text><![CDATA[Állam, tartomány:]]></text>
+</text>
+
+<text id="165">
+  <text><![CDATA[Irsz., település:]]></text>
+</text>
+
+<text id="166">
+  <text><![CDATA[Utca, házszám:]]></text>
+</text>
+
+<text id="167">
+  <text><![CDATA[Cég neve (ha van):]]></text>
+</text>
+
+<text id="168">
+  <text><![CDATA[Ha üresen hagyod, a cég címét nem kell beírni.]]></text>
+</text>
+
+<text id="169">
+  <text><![CDATA[Cég telephelye, országa:]]></text>
+</text>
+
+<text id="170">
+  <text><![CDATA[Cég telephelye, állam, tartomány:]]></text>
+</text>
+
+<text id="171">
+  <text><![CDATA[Cég telephelye, irsz., település:]]></text>
+</text>
+
+<text id="172">
+  <text><![CDATA[Cég telephelye, utca, házszám:]]></text>
+</text>
+
+<text id="173">
+  <text><![CDATA[Aktív felhasználó]]></text>
+</text>
+
+<text id="174">
+  <text><![CDATA[Kap hírlevelet]]></text>
+</text>
+
+<text id="175">
+  <text><![CDATA[Adminisztrátor]]></text>
+</text>
+
+<text id="176">
+  <text><![CDATA[Cikkek]]></text>
+</text>
+
+<text id="177">
+  <text><![CDATA[Új cikk]]></text>
+</text>
+
+<text id="178">
+  <text><![CDATA[Mindet fordít]]></text>
+</text>
+
+<text id="179">
+  <text><![CDATA[Galéria]]></text>
+</text>
+
+<text id="180">
+  <text><![CDATA[Országok]]></text>
+</text>
+
+<text id="181">
+  <text><![CDATA[Nyelvek]]></text>
+</text>
+
+<text id="182">
+  <text><![CDATA[Körlevélküldő]]></text>
+</text>
+
+<text id="183">
+  <text><![CDATA[Név és emailcím:]]></text>
+</text>
+
+<text id="184">
+  <text><![CDATA[Hozzáadás >>]]></text>
+</text>
+
+<text id="185">
+  <text><![CDATA[Tömeges hozzáadás:]]></text>
+</text>
+
+<text id="186">
+  <text><![CDATA[Hírlevélre feliratkozottak hozzáadása]]></text>
+</text>
+
+<text id="187">
+  <text><![CDATA[Aktív felhasználók hozzáadása]]></text>
+</text>
+
+<text id="188">
+  <text><![CDATA[Adminisztrátorok hozzáadása]]></text>
+</text>
+
+<text id="189">
+  <text><![CDATA[Mentés]]></text>
+</text>
+
+<text id="190">
+  <text><![CDATA[Betöltés]]></text>
+</text>
+
+<text id="191">
+  <text><![CDATA[Import]]></text>
+</text>
+
+<text id="192">
+  <text><![CDATA[Küldés]]></text>
+</text>
+
+<text id="193">
+  <text><![CDATA[Új mappa]]></text>
+</text>
+
+<text id="194">
+  <text><![CDATA[Üzenetek]]></text>
+</text>
+
+<text id="195">
+  <text><![CDATA[Ma]]></text>
+</text>
+
+<text id="196">
+  <text><![CDATA[-- Minden mappa --]]></text>
+</text>
+
+<text id="197">
+  <text><![CDATA[OK]]></text>
+</text>
+
+<text id="198">
+  <text><![CDATA[Olvasatlanok]]></text>
+</text>
+
+<text id="199">
+  <text><![CDATA[Előre definiált válaszüzenetek]]></text>
+</text>
+
+<text id="200">
+  <text><![CDATA[Új üzenetszöveg]]></text>
+</text>
+
+<text id="201">
+  <text><![CDATA[Beállítások]]></text>
+</text>
+
+<text id="202">
+  <text><![CDATA[A beállítások szétbarmolása esetére a pixeldog nem vállal felelősséget, és még ki is fogunk röhögni!]]></text>
+</text>
+
+<text id="203">
+  <text><![CDATA[Automatikus rendszerüzenetek]]></text>
+</text>
+
+<text id="204">
+  <text><![CDATA[Szövegek]]></text>
+</text>
+
+<text id="205">
+  <text><![CDATA[Új szöveg]]></text>
+</text>
+
+<text id="206">
+  <text><![CDATA[-- Minden csoport --]]></text>
+</text>
+
+<text id="207">
+  <text><![CDATA[Felhasználók]]></text>
+</text>
+
+<text id="208">
+  <text><![CDATA[Új felhasználó]]></text>
+</text>
+
+<text id="209">
+  <text><![CDATA[pgCMS admin]]></text>
+</text>
+
+<text id="210">
+  <text><![CDATA[Menü]]></text>
+</text>
+
+<text id="211">
+  <text><![CDATA[Tartalom]]></text>
+</text>
+
+<text id="212">
+  <text><![CDATA[Beérkező levelek]]></text>
+</text>
+
+<text id="213">
+  <text><![CDATA[Üzenetmappák]]></text>
+</text>
+
+<text id="214">
+  <text><![CDATA[Kilépés]]></text>
+</text>
+
+<text id="215">
+  <text><![CDATA[Üzenetek <span class="caret"></span>]]></text>
+</text>
+
+<text id="216">
+  <text><![CDATA[Felhasználók <span class="caret"></span>]]></text>
+</text>
+
+<text id="217">
+  <text><![CDATA[Beállítások <span class="caret"></span>]]></text>
+</text>
+
+<text id="218">
+  <text><![CDATA[Szövegek <span class="caret"></span>]]></text>
+</text>
+
+<text id="219">
+  <text><![CDATA[Biztosan kilépsz?]]></text>
+</text>
+
+<text id="220">
+  <text><![CDATA[Nem tölthető be:]]></text>
+</text>
+
+<text id="221">
+  <text><![CDATA[Nem olvasható:]]></text>
+</text>
+
+<text id="222">
+  <text><![CDATA[Részletek]]></text>
+</text>
+
+<text id="223">
+  <text><![CDATA[betöltés]]></text>
+</text>
+
+<text id="224">
+  <text><![CDATA[Képgaléria]]></text>
+</text>
+
+<text id="225">
+  <text><![CDATA[Bezárás]]></text>
+</text>
+
+<text id="226">
+  <text><![CDATA[Beillesztés]]></text>
+</text>
+
+<text id="227">
+  <text><![CDATA[Mégsem]]></text>
+</text>
+
+<text id="228">
+  <text><![CDATA[Új kép feltöltése]]></text>
+</text>
+
+<text id="229">
+  <text><![CDATA[Ez a kép túl nagy a feltöltéshez. Méretezd át kisebbre.]]></text>
+</text>
+
+<text id="230">
+  <text><![CDATA[feltöltés folyamatban]]></text>
+</text>
+
+<text id="231">
+  <text><![CDATA[Kép törlése]]></text>
+</text>
+
+<text id="232">
+  <text><![CDATA[Biztosan törlöd ezt a képet?<br />El fog tűnni azokból a cikkekből is, ahová korábban beillesztetted!]]></text>
+</text>
+
+<text id="233">
+  <text><![CDATA[Kép módosítása]]></text>
+</text>
+
+<text id="234">
+  <text><![CDATA[Nincs kiválasztva kép.]]></text>
+</text>
+
+<text id="235">
+  <text><![CDATA[Képkereső]]></text>
+</text>
+
+<text id="236">
+  <text><![CDATA[Képszerkesztő]]></text>
+</text>
+
+<text id="237">
+  <text><![CDATA[ID]]></text>
+</text>
+
+<text id="238">
+  <text><![CDATA[Cikk címe]]></text>
+</text>
+
+<text id="239">
+  <text><![CDATA[Létrehozva]]></text>
+</text>
+
+<text id="240">
+  <text><![CDATA[Új cikk]]></text>
+</text>
+
+<text id="241">
+  <text><![CDATA[Cikk törlése]]></text>
+</text>
+
+<text id="242">
+  <text><![CDATA[Cikk módosítása]]></text>
+</text>
+
+<text id="243">
+  <text><![CDATA[%count% cikk lefordítva %language% nyelvre.]]></text>
+</text>
+
+<text id="244">
+  <text><![CDATA[A %title% című cikk másolása kész.]]></text>
+</text>
+
+<text id="245">
+  <text><![CDATA[Nincs megadva]]></text>
+</text>
+
+<text id="246">
+  <text><![CDATA[Angol név]]></text>
+</text>
+
+<text id="247">
+  <text><![CDATA[Név]]></text>
+</text>
+
+<text id="248">
+  <text><![CDATA[Nyelv]]></text>
+</text>
+
+<text id="249">
+  <text><![CDATA[Pénznem]]></text>
+</text>
+
+<text id="250">
+  <text><![CDATA[Választható]]></text>
+</text>
+
+<text id="251">
+  <text><![CDATA[Ország módosítása]]></text>
+</text>
+
+<text id="252">
+  <text><![CDATA[Zászló]]></text>
+</text>
+
+<text id="253">
+  <text><![CDATA[Beállítás módosítása]]></text>
+</text>
+
+<text id="254">
+  <text><![CDATA[Belépés]]></text>
+</text>
+
+<text id="255">
+  <text><![CDATA[Elfelejtett jelszó]]></text>
+</text>
+
+<text id="256">
+  <text><![CDATA[Az email-címedre elküldtük a jelszóemlékeztetőt.]]></text>
+</text>
+
+<text id="257">
+  <text><![CDATA[Nincs megadva egy cím sem.]]></text>
+</text>
+
+<text id="258">
+  <text><![CDATA[Címlista betöltése]]></text>
+</text>
+
+<text id="259">
+  <text><![CDATA[Címlista törlése]]></text>
+</text>
+
+<text id="260">
+  <text><![CDATA[Biztos, hogy törölni szeretnéd ezt a listát?]]></text>
+</text>
+
+<text id="261">
+  <text><![CDATA[Címlista mentése]]></text>
+</text>
+
+<text id="262">
+  <text><![CDATA[A lista el van mentve.]]></text>
+</text>
+
+<text id="263">
+  <text><![CDATA[Címlista importálása]]></text>
+</text>
+
+<text id="264">
+  <text><![CDATA[Levelek küldése]]></text>
+</text>
+
+<text id="265">
+  <text><![CDATA[Leállítás]]></text>
+</text>
+
+<text id="266">
+  <text><![CDATA[Hiba! A folyamat leállítva!\n]]></text>
+</text>
+
+<text id="267">
+  <text><![CDATA[Mappa címe]]></text>
+</text>
+
+<text id="268">
+  <text><![CDATA[Üzenetek]]></text>
+</text>
+
+<text id="269">
+  <text><![CDATA[Mappa módosítása]]></text>
+</text>
+
+<text id="270">
+  <text><![CDATA[Új mappa]]></text>
+</text>
+
+<text id="271">
+  <text><![CDATA[Mappa törlése]]></text>
+</text>
+
+<text id="272">
+  <text><![CDATA[Automatikus válasz elküldve.]]></text>
+</text>
+
+<text id="273">
+  <text><![CDATA[Üzenet módosítása]]></text>
+</text>
+
+<text id="274">
+  <text><![CDATA[Üzenetküldő]]></text>
+</text>
+
+<text id="275">
+  <text><![CDATA[Válaszüzenet elküldve.]]></text>
+</text>
+
+<text id="276">
+  <text><![CDATA[Üzenet törlése]]></text>
+</text>
+
+<text id="277">
+  <text><![CDATA[Végleg törlöd ezt az üzenetet?]]></text>
+</text>
+
+<text id="278">
+  <text><![CDATA[Az üzenet áthelyezve a %folder% mappába.]]></text>
+</text>
+
+<text id="279">
+  <text><![CDATA[Az üzenet nincs mappába sorolva.]]></text>
+</text>
+
+<text id="280">
+  <text><![CDATA[Automatikus válasz:]]></text>
+</text>
+
+<text id="281">
+  <text><![CDATA[Áthelyezés mappába:]]></text>
+</text>
+
+<text id="282">
+  <text><![CDATA[-- Nincs mappába sorolva --]]></text>
+</text>
+
+<text id="283">
+  <text><![CDATA[Megválaszolva]]></text>
+</text>
+
+<text id="284">
+  <text><![CDATA[Válasz]]></text>
+</text>
+
+<text id="285">
+  <text><![CDATA[Levél tárgysora]]></text>
+</text>
+
+<text id="286">
+  <text><![CDATA[Üzenetszöveg törlése]]></text>
+</text>
+
+<text id="287">
+  <text><![CDATA[Valóban törlöd ezt az üzenetet?]]></text>
+</text>
+
+<text id="288">
+  <text><![CDATA[Üzenetszöveg módosítása]]></text>
+</text>
+
+<text id="289">
+  <text><![CDATA[Az üzenet másolása kész.]]></text>
+</text>
+
+<text id="290">
+  <text><![CDATA[%count% üzenet lefordítva %language% nyelvre.]]></text>
+</text>
+
+<text id="291">
+  <text><![CDATA[Beállítás]]></text>
+</text>
+
+<text id="292">
+  <text><![CDATA[Érték]]></text>
+</text>
+
+<text id="293">
+  <text><![CDATA[Magyarázat]]></text>
+</text>
+
+<text id="294">
+  <text><![CDATA[Státusz]]></text>
+</text>
+
+<text id="295">
+  <text><![CDATA[Csoport módosítása]]></text>
+</text>
+
+<text id="296">
+  <text><![CDATA[Új csoport]]></text>
+</text>
+
+<text id="297">
+  <text><![CDATA[%group% csoport létrejött.]]></text>
+</text>
+
+<text id="298">
+  <text><![CDATA[%group% csoport módosítva.]]></text>
+</text>
+
+<text id="299">
+  <text><![CDATA[Csoport törlése]]></text>
+</text>
+
+<text id="300">
+  <text><![CDATA[Szöveg]]></text>
+</text>
+
+<text id="301">
+  <text><![CDATA[Fordító]]></text>
+</text>
+
+<text id="302">
+  <text><![CDATA[Szöveg törlése]]></text>
+</text>
+
+<text id="303">
+  <text><![CDATA[Szöveg módosítása]]></text>
+</text>
+
+<text id="304">
+  <text><![CDATA[A fordítás kész.]]></text>
+</text>
+
+<text id="305">
+  <text><![CDATA[%count% szöveg lefordítva %language% nyelvre.]]></text>
+</text>
+
+<text id="306">
+  <text><![CDATA[Becenév]]></text>
+</text>
+
+<text id="307">
+  <text><![CDATA[Cég neve]]></text>
+</text>
+
+<text id="308">
+  <text><![CDATA[Email]]></text>
+</text>
+
+<text id="309">
+  <text><![CDATA[Aktív]]></text>
+</text>
+
+<text id="310">
+  <text><![CDATA[Admin]]></text>
+</text>
+
+<text id="311">
+  <text><![CDATA[A felhasználók módosításához Administrator szint szükséges! Ennek hiányában csak a saját adataidat módosíthatod.]]></text>
+</text>
+
+<text id="312">
+  <text><![CDATA[Felhasználó módosítása]]></text>
+</text>
+
+<text id="313">
+  <text><![CDATA[Új felhasználó]]></text>
+</text>
+
+<text id="314">
+  <text><![CDATA[A felhasználó regisztrációja sikeres.]]></text>
+</text>
+
+<text id="315">
+  <text><![CDATA[A felhasználó módosítása sikeres.]]></text>
+</text>
+
+<text id="316">
+  <text><![CDATA[Felhasználó törlése]]></text>
+</text>
+
+<text id="317">
+  <text><![CDATA[Biztosan végleg törölni szeretnéd ezt a felhasználót?]]></text>
+</text>
+
+<text id="318">
+  <text><![CDATA[Cím:]]></text>
+</text>
+
+<text id="319">
+  <text><![CDATA[Automatikusan generált]]></text>
+</text>
+
+<text id="320">
+  <text><![CDATA[Fájlraktár]]></text>
+</text>
+
+<text id="321">
+  <text><![CDATA[Fájlnév:]]></text>
+</text>
+
+<text id="322">
+  <text><![CDATA[MIME típus:]]></text>
+</text>
+
+<text id="323">
+  <text><![CDATA[Letöltések:]]></text>
+</text>
+
+<text id="324">
+  <text><![CDATA[Korlátozás:]]></text>
+</text>
+
+<text id="325">
+  <text><![CDATA[Nincs korlátozás]]></text>
+</text>
+
+<text id="326">
+  <text><![CDATA[Csak regisztrált felhasználóknak]]></text>
+</text>
+
+<text id="327">
+  <text><![CDATA[Csak adminisztrátoroknak]]></text>
+</text>
+
+<text id="328">
+  <text><![CDATA[Letöltés]]></text>
+</text>
+
+<text id="329">
+  <text><![CDATA[Feltöltés]]></text>
+</text>
+
+<text id="330">
+  <text><![CDATA[Fájl törlése]]></text>
+</text>
+
+<text id="331">
+  <text><![CDATA[Biztosan törlöd ezt a fájlt?<br />El fog tűnni azokból a cikkekből is, ahová korábban beillesztetted!]]></text>
+</text>
+
+<text id="332">
+  <text><![CDATA[Új fájl feltöltése]]></text>
+</text>
+
+<text id="333">
+  <text><![CDATA[Ki töltheti le:]]></text>
+</text>
+
+<text id="334">
+  <text><![CDATA[Bárki letöltheti]]></text>
+</text>
+
+<text id="335">
+  <text><![CDATA[Csak regisztrált felhasználóknak]]></text>
+</text>
+
+<text id="336">
+  <text><![CDATA[Csak Adminisztrátoroknak]]></text>
+</text>
+
+<text id="337">
+  <text><![CDATA[Fájl kiválasztása:]]></text>
+</text>
+
+<text id="338">
+  <text><![CDATA[Kísérő információ:]]></text>
+</text>
+
+<text id="339">
+  <text><![CDATA[Nincs kiválasztva]]></text>
+</text>
+
+<text id="340">
+  <text><![CDATA[Fájl módosítása]]></text>
+</text>
+
+<text id="341">
+  <text><![CDATA[Fájlkereső]]></text>
+</text>
+
+<text id="342">
+  <text><![CDATA[Nincs kiválasztva fájl.]]></text>
+</text>
+
+<text id="343">
+  <text><![CDATA[Gy.I.K. <span class="caret"></span>]]></text>
+</text>
+
+<text id="344">
+  <text><![CDATA[Kérdéscsoportok]]></text>
+</text>
+
+<text id="345">
+  <text><![CDATA[Válaszok]]></text>
+</text>
+
+<text id="346">
+  <text><![CDATA[Csoport címe]]></text>
+</text>
+
+<text id="347">
+  <text><![CDATA[Válaszok]]></text>
+</text>
+
+<text id="348">
+  <text><![CDATA[Prioritás]]></text>
+</text>
+
+<text id="349">
+  <text><![CDATA[Megjelenik]]></text>
+</text>
+
+<text id="350">
+  <text><![CDATA[Kérdéscsoport címe:]]></text>
+</text>
+
+<text id="351">
+  <text><![CDATA[Prioritás:]]></text>
+</text>
+
+<text id="352">
+  <text><![CDATA[A csoport megjelenik]]></text>
+</text>
+
+<text id="353">
+  <text><![CDATA[Új kérdéscsoport]]></text>
+</text>
+
+<text id="354">
+  <text><![CDATA[Kérdéscsoport módosítása]]></text>
+</text>
+
+<text id="355">
+  <text><![CDATA[Kérdéscsoport törlése]]></text>
+</text>
+
+<text id="356">
+  <text><![CDATA[Biztosan törölni szeretnéd ezt a kérdéscsoportot?]]></text>
+</text>
+
+<text id="357">
+  <text><![CDATA[A benne levő kérdéseket is.]]></text>
+</text>
+
+<text id="358">
+  <text><![CDATA[%count% kérdéscsoport lefordítva %language% nyelvre.]]></text>
+</text>
+
+<text id="359">
+  <text><![CDATA[Gyakran Ismételt Kérdések]]></text>
+</text>
+
+<text id="360">
+  <text><![CDATA[Új kérdés]]></text>
+</text>
+
+<text id="361">
+  <text><![CDATA[Kérdés]]></text>
+</text>
+
+<text id="362">
+  <text><![CDATA[Kérdés:]]></text>
+</text>
+
+<text id="363">
+  <text><![CDATA[Kérdéscsoport:]]></text>
+</text>
+
+<text id="364">
+  <text><![CDATA[Válasz:]]></text>
+</text>
+
+<text id="365">
+  <text><![CDATA[A kérdés megjelenik]]></text>
+</text>
+
+<text id="366">
+  <text><![CDATA[Biztos, hogy törölni szeretnéd ezt a kérdést?<br />A törlés nem visszafordítható!]]></text>
+</text>
+
+<text id="367">
+  <text><![CDATA[Minden nyelvről törölni szeretném]]></text>
+</text>
+
+<text id="368">
+  <text><![CDATA[Kérdés módosítása]]></text>
+</text>
+
+<text id="369">
+  <text><![CDATA[%count% kérdés lefordítva %language% nyelvre.]]></text>
+</text>
+
+<text id="370">
+  <text><![CDATA[A kérdés másolása kész.]]></text>
+</text>
+
+<text id="371">
+  <text><![CDATA[Megjelenik:]]></text>
+</text>
+
+<text id="372">
+  <text><![CDATA[Keresőszavak:]]></text>
+</text>
+
+<text id="373">
+  <text><![CDATA[Törléshez kattints duplán a szóra.]]></text>
+</text>
+
+<text id="374">
+  <text><![CDATA[Hozzáadás]]></text>
+</text>
+
+<text id="375">
+  <text><![CDATA[Keresőszó hozzáadása]]></text>
+</text>
+
+<text id="376">
+  <text><![CDATA[Keresőszó:]]></text>
+</text>
+
+<text id="377">
+  <text><![CDATA[Link szövege:]]></text>
+</text>
+
+<text id="378">
+  <text><![CDATA[Ikon:]]></text>
+</text>
+
+<text id="379">
+  <text><![CDATA[Ne legyen ikon]]></text>
+</text>
+
+</texts>

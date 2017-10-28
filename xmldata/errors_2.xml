@@ -1,0 +1,1868 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<errors>
+
+<!-- Error messages - Magyar (Hungarian) -->
+
+ <error id="1">
+  <module>api.texts</module>
+  <cmd>getgroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="2">
+  <module>api.texts</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="3">
+  <module>api.texts</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[Ez a csoportazonosító nem létezik.]]>
+  </message>
+ </error>
+ <error id="4">
+  <module>api.system</module>
+  <cmd>setlanguage</cmd>
+  <message>
+   <![CDATA[Nincs meg a választott nyelvhez tartozó beállításfájl.]]>
+  </message>
+ </error>
+ <error id="5">
+  <module>api.texts</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[Szövegcsoport módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="6">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Szövegcsoport törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="7">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen token. Legalább 5 karakter hosszúnak kell lennie.]]>
+  </message>
+ </error>
+ <error id="8">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Ez a token már létezik.]]>
+  </message>
+ </error>
+ <error id="9">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="10">
+  <module>api.gallery</module>
+  <cmd>getimages</cmd>
+  <message>
+   <![CDATA[A galéria megnyitásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="11">
+  <module>api.texts</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[A token nem tartalmazhat vesszőt.]]>
+  </message>
+ </error>
+ <error id="12">
+  <module>api.texts</module>
+  <cmd>cunnilingus</cmd>
+  <message>
+   <![CDATA[Nincs megadva token.]]>
+  </message>
+ </error>
+ <error id="13">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Érvénytelen token.]]>
+  </message>
+ </error>
+ <error id="14">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[A rendszerbeállítások módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="15">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Szöveg hozzáadásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="16">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Érvénytelen token.]]>
+  </message>
+ </error>
+ <error id="17">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="18">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Ez a token már létezik ebben a csoportban.]]>
+  </message>
+ </error>
+ <error id="19">
+  <module>api.texts</module>
+  <cmd>gettext</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="20">
+  <module>api.texts</module>
+  <cmd>fellatio</cmd>
+  <message>
+   <![CDATA[Érvénytelen tokenlista.]]>
+  </message>
+ </error>
+ <error id="21">
+  <module>api.texts</module>
+  <cmd>fellatio</cmd>
+  <message>
+   <![CDATA[Nincs megadva token.]]>
+  </message>
+ </error>
+ <error id="22">
+  <module>api.system</module>
+  <cmd>general error</cmd>
+  <message>
+   <![CDATA[Érvénytelen ellenőrző kód. Kérjük, próbálja meg újra!]]>
+  </message>
+ </error>
+ <error id="23">
+  <module>api.userdata</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez be kell lépnie.]]>
+  </message>
+ </error>
+ <error id="24">
+  <module>api.userdata</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[Érvénytelen metódus.]]>
+  </message>
+ </error>
+ <error id="25">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Ország módosításához Administrator jog szükséges.]]>
+  </message>
+ </error>
+ <error id="26">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen országazonosító.]]>
+  </message>
+ </error>
+ <error id="27">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen országnév.]]>
+  </message>
+ </error>
+ <error id="28">
+  <module>api.userdata</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen angol név.]]>
+  </message>
+ </error>
+ <error id="29">
+  <module>api.system</module>
+  <cmd>localmsg</cmd>
+  <message>
+   <![CDATA[Nincs megadva token vagy csoport.]]>
+  </message>
+ </error>
+ <error id="30">
+  <module>api.system</module>
+  <cmd>localmsg</cmd>
+  <message>
+   <![CDATA[Ez a token vagy csoport nem szerepel az xmldata/local_%language%.xml fájlban.]]>
+  </message>
+ </error>
+ <error id="31">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen főváros.]]>
+  </message>
+ </error>
+ <error id="32">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen pénznemkód.]]>
+  </message>
+ </error>
+ <error id="33">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Invalid setting for imperial measurements.]]>
+  </message>
+ </error>
+ <error id="34">
+  <module>api.system</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Felhasználó módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="35">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Érvénytelen név.]]>
+  </message>
+ </error>
+ <error id="36">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen választhatósági beállítás.]]>
+  </message>
+ </error>
+ <error id="37">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Ismeretlen ország. Ez nem az ország hibája, hanem az adatbázisé.]]>
+  </message>
+ </error>
+ <error id="38">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Érvénytelen településnév.]]>
+  </message>
+ </error>
+ <error id="39">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Érvénytelen emailcím.]]>
+  </message>
+ </error>
+ <error id="40">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[A felhasználónévnek legalább 5 és legfeljebb 64 karakterből kell állnia.]]>
+  </message>
+ </error>
+ <error id="41">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen telefonos országkód.]]>
+  </message>
+ </error>
+ <error id="42">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[A jelszavak nem egyeznek.]]>
+  </message>
+ </error>
+ <error id="43">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[Érvénytelen nyelvkód.]]>
+  </message>
+ </error>
+ <error id="44">
+  <module>api.system</module>
+  <cmd>updatecountry</cmd>
+  <message>
+   <![CDATA[A countries.xml nem írható.]]>
+  </message>
+ </error>
+ <error id="45">
+  <module>api.texts</module>
+  <cmd>getarticle</cmd>
+  <message>
+   <![CDATA[A kért cikk nem található.]]>
+  </message>
+ </error>
+ <error id="46">
+  <module>api.texts</module>
+  <cmd>blogroll</cmd>
+  <message>
+   <![CDATA[Nincs megadva csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="47">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Ez a felhasználónév már foglalt. Kérjük, válassz mást.]]>
+  </message>
+ </error>
+ <error id="48">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Ezzel a telefonszámmal már létezik regisztráció. Ha elfelejtetted a jelszavad, kérjük, használd a jelszóemlékeztető funkciót.]]>
+  </message>
+ </error>
+ <error id="49">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[A %email% emailcímmel már létezik regisztráció. Ha elfelejtetted a jelszavad, kérjük, használd a jelszóemlékeztető funkciót.]]>
+  </message>
+ </error>
+ <error id="50">
+  <module>api.texts</module>
+  <cmd>blogroll</cmd>
+  <message>
+   <![CDATA[Nincs több post.]]>
+  </message>
+ </error>
+ <error id="51">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Túl rövid a keresőkifejezés.]]>
+  </message>
+ </error>
+ <error id="52">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[Érvénytelen helyreállító kód. 12 karakterből kell állnia, melyek mindegyike kisbetű.]]>
+  </message>
+ </error>
+ <error id="53">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[Ez a kód nem található. Ellenőrizd, nem gépelted-e el. Ha a fiókodat már aktiváltad, nem kell ismét megtenned. Ha több, mint 24 óra telt el a regisztrációd óta, regisztrálj újra, mert ennyi idő után a rendszer törli a nem aktivált regisztrációkat.]]>
+  </message>
+ </error>
+ <error id="54">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[Ki vagy tiltva innen.]]>
+  </message>
+ </error>
+ <error id="55">
+  <module>api.userdata</module>
+  <cmd>confirmreg</cmd>
+  <message>
+   <![CDATA[A fiókod már aktív. Your account is already active. Ha elfelejtetted a jelszavad, kérjük, használd a jelszóemlékeztető funkciót.]]>
+  </message>
+ </error>
+ <error id="56">
+  <module>api.userdata</module>
+  <cmd>reconfirmreg</cmd>
+  <message>
+   <![CDATA[Érvénytelen emailcím.]]>
+  </message>
+ </error>
+ <error id="57">
+  <module>api.userdata</module>
+  <cmd>reconfirmreg</cmd>
+  <message>
+   <![CDATA[Ez az emailcím nem tartozik egyetlen felhasználói fiókhoz sem. Lehetséges okok: elgépelted, már megerősítetted a regisztrációd, vagy már több, mint 24 órája regisztráltál, és a rendszer törölte a meg nem erősített fiókot.]]>
+  </message>
+ </error>
+ <error id="58">
+  <module>api.userdata</module>
+  <cmd>login</cmd>
+  <message>
+   <![CDATA[Érvénytelen felhasználónév vagy jelszó.]]>
+  </message>
+ </error>
+ <error id="59">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="60">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Érvénytelen év.]]>
+  </message>
+ </error>
+ <error id="61">
+  <module>api.filestorage</module>
+  <cmd>getfile</cmd>
+  <message>
+   <![CDATA[Érvénytelen hónap.]]>
+  </message>
+ </error>
+ <error id="62">
+  <module>api.filestorage</module>
+  <cmd>deletefile</cmd>
+  <message>
+   <![CDATA[Fájl törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="63">
+  <module>api.filestorage</module>
+  <cmd>deletefile</cmd>
+  <message>
+   <![CDATA[Érvénytelen fájlazonosító.]]>
+  </message>
+ </error>
+ <error id="64">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Fájl feltöltéséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="65">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Túl kevés információt adtál meg.]]>
+  </message>
+ </error>
+ <error id="66">
+  <module>api.system</module>
+  <cmd>forgotpassword</cmd>
+  <message>
+   <![CDATA[Érvénytelen emailcím.]]>
+  </message>
+ </error>
+ <error id="67">
+  <module>api.system</module>
+  <cmd>forgotpassword</cmd>
+  <message>
+   <![CDATA[Ezzel az emailcímmel nincs felhasználói fiók.]]>
+  </message>
+ </error>
+ <error id="68">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[A feltöltött fájl túl kicsi.]]>
+  </message>
+ </error>
+ <error id="69">
+  <module>api.system</module>
+  <cmd>forgotpassword</cmd>
+  <message>
+   <![CDATA[Ez a felhasználói fiók még nincs aktiválva.]]>
+  </message>
+ </error>
+ <error id="70">
+  <module>api.system</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[Érvénytelen jelszó-helyreállító kód.]]>
+  </message>
+ </error>
+ <error id="71">
+  <module>api.system</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[Ez a jelszó-helyreállító kód ismeretlen. Ha másolással vitted át a böngésződbe, ellenőrizd, hogy helyes-e.]]>
+  </message>
+ </error>
+ <error id="72">
+  <module>api.system</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[Érvénytelen felhasználónév.]]>
+  </message>
+ </error>
+ <error id="73">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[A felhasználónévnek legalább 5, legfeljebb 64 karakter hosszúnak kell lennie.]]>
+  </message>
+ </error>
+ <error id="74">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[A jelszónak legalább 5, legfeljebb 64 karakter hosszúnak kell lennie.]]>
+  </message>
+ </error>
+ <error id="75">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[A két jelszó nem egyezik.]]>
+  </message>
+ </error>
+ <error id="76">
+  <module>api.userdata</module>
+  <cmd>resetpassword</cmd>
+  <message>
+   <![CDATA[A jelszó nem lehet azonos a felhasználónévvel.]]>
+  </message>
+ </error>
+ <error id="77">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Érvénytelen beállítás.]]>
+  </message>
+ </error>
+ <error id="78">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Sikertelen mentés: %filename%]]>
+  </message>
+ </error>
+ <error id="79">
+  <module>api.filestorage</module>
+  <cmd>addfile</cmd>
+  <message>
+   <![CDATA[Érvénytelen fájlazonosító.]]>
+  </message>
+ </error>
+ <error id="80">
+  <module>api.faq</module>
+  <cmd>getgroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="81">
+  <module>api.faq</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[GYIK csoport hozzáadásához Adminisztrátor jogosultsági szint szükséges.]]>
+  </message>
+ </error>
+ <error id="82">
+  <module>api.userdata</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[Érvénytelen felhasználó-azonosító.]]>
+  </message>
+ </error>
+ <error id="83">
+  <module>api.faq</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen prioritás-érték.]]>
+  </message>
+ </error>
+ <error id="84">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Csak a saját regisztrációdat módosíthatod.]]>
+  </message>
+ </error>
+ <error id="85">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Ez a felhasználó-azonosító nem létezik.]]>
+  </message>
+ </error>
+ <error id="86">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[A regisztrációd módosításához be kell lépned.]]>
+  </message>
+ </error>
+ <error id="87">
+  <module>api.faq</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[A cím túl rövid.]]>
+  </message>
+ </error>
+ <error id="88">
+  <module>api.faq</module>
+  <cmd>addgroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen kérdéscsoport-azonosító.]]>
+  </message>
+ </error>
+ <error id="89">
+  <module>api.faq</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[Érvénytelen kérdéscsoport-azonosító.]]>
+  </message>
+ </error>
+ <error id="90">
+  <module>api.faq</module>
+  <cmd>deletegroup</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="91">
+  <module>api.faq</module>
+  <cmd>translate_group</cmd>
+  <message>
+   <![CDATA[Túl rövid a megadott cím.]]>
+  </message>
+ </error>
+ <error id="92">
+  <module>api.faq</module>
+  <cmd>translate_group</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="93">
+  <module>api.faq</module>
+  <cmd>translate_group</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="94">
+  <module>api.faq</module>
+  <cmd>translate_group</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="95">
+  <module>api.faq</module>
+  <cmd>translate_group</cmd>
+  <message>
+   <![CDATA[Ez a kérdéscsoport már le van fordítva erre a nyelvre.]]>
+  </message>
+ </error>
+ <error id="96">
+  <module>api.faq</module>
+  <cmd>translate_all_groups</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="97">
+  <module>api.faq</module>
+  <cmd>translate_all_groups</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="98">
+  <module>api.faq</module>
+  <cmd>getquestion</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="99">
+  <module>api.faq</module>
+  <cmd>addquestion</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="100">
+  <module>api.faq</module>
+  <cmd>addquestion</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="101">
+  <module>api.faq</module>
+  <cmd>addquestion</cmd>
+  <message>
+   <![CDATA[Nincs megadva válasz.]]>
+  </message>
+ </error>
+ <error id="102">
+  <module>api.faq</module>
+  <cmd>addquestion</cmd>
+  <message>
+   <![CDATA[Nincs megadva kérdés.]]>
+  </message>
+ </error>
+ <error id="103">
+  <module>api.faq</module>
+  <cmd>addquestion</cmd>
+  <message>
+   <![CDATA[Érvénytelen prioritás-érték.]]>
+  </message>
+ </error>
+ <error id="104">
+  <module>api.faq</module>
+  <cmd>deletequestion</cmd>
+  <message>
+   <![CDATA[Érvénytelen kérdésazonosító.]]>
+  </message>
+ </error>
+ <error id="105">
+  <module>api.faq</module>
+  <cmd>deletequestion</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="106">
+  <module>api.faq</module>
+  <cmd>translate_all_questions</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="107">
+  <module>api.faq</module>
+  <cmd>translate_all_questions</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="108">
+  <module>api.faq</module>
+  <cmd>translate_question</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="109">
+  <module>api.faq</module>
+  <cmd>translate_question</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="110">
+  <module>api.faq</module>
+  <cmd>translate_question</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="111">
+  <module>api.faq</module>
+  <cmd>translate_question</cmd>
+  <message>
+   <![CDATA[Ez a kérdés már le van fordítva erre a nyelvre.]]>
+  </message>
+ </error>
+ <error id="185">
+  <module>api.userdata</module>
+  <cmd>deleteuser</cmd>
+  <message>
+   <![CDATA[Érvénytelen felhasználó-azonosító.]]>
+  </message>
+ </error>
+ <error id="188">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[A languages.xml fájl nem írható.]]>
+  </message>
+ </error>
+ <error id="189">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[A nyelvbeállítások módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="190">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen nyelvazonosító.]]>
+  </message>
+ </error>
+ <error id="191">
+  <module>api.texts</module>
+  <cmd>deletetext</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="192">
+  <module>api.texts</module>
+  <cmd>deletetext</cmd>
+  <message>
+   <![CDATA[Tartalom törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="193">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Tartalom módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="194">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Érvénytelen szöveg.]]>
+  </message>
+ </error>
+ <error id="195">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Érvénytelen token.]]>
+  </message>
+ </error>
+ <error id="196">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoportazonosító.]]>
+  </message>
+ </error>
+ <error id="197">
+  <module>api.texts</module>
+  <cmd>addtext</cmd>
+  <message>
+   <![CDATA[Érvénytelen azonosító.]]>
+  </message>
+ </error>
+ <error id="198">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Ez a szöveg túl rövid.]]>
+  </message>
+ </error>
+ <error id="199">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Szövegek lefordításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="201">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="203">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Érvénytelen szövegazonosító.]]>
+  </message>
+ </error>
+ <error id="204">
+  <module>api.texts</module>
+  <cmd>translate_text</cmd>
+  <message>
+   <![CDATA[Ez a szöveg már le van fordítva erre a nyelvre.]]>
+  </message>
+ </error>
+ <error id="206">
+  <module>api.texts</module>
+  <cmd>translate_all</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="207">
+  <module>api.texts</module>
+  <cmd>translate_all</cmd>
+  <message>
+   <![CDATA[Ehhez a művelethez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="209">
+  <module>api.texts</module>
+  <cmd>getarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen cikktoken.]]>
+  </message>
+ </error>
+ <error id="210">
+  <module>api.texts</module>
+  <cmd>getarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen cikkazonosító.]]>
+  </message>
+ </error>
+ <error id="211">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Cikk módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="212">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen token.]]>
+  </message>
+ </error>
+ <error id="213">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen csoport.]]>
+  </message>
+ </error>
+ <error id="214">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Ezzel a tokennel már van cikk ebben a csoportban.]]>
+  </message>
+ </error>
+ <error id="215">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen token.]]>
+  </message>
+ </error>
+ <error id="216">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen cikkazonosító.]]>
+  </message>
+ </error>
+ <error id="217">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Nem adtad meg a cikk szövegét.]]>
+  </message>
+ </error>
+ <error id="218">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Nem írtál bevezető szöveget.]]>
+  </message>
+ </error>
+ <error id="219">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Nem adtad meg a cikk címét.]]>
+  </message>
+ </error>
+ <error id="220">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Nem adtad meg a cikk címét.]]>
+  </message>
+ </error>
+ <error id="221">
+  <module>api.texts</module>
+  <cmd>deletearticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen cikkazonosító.]]>
+  </message>
+ </error>
+ <error id="222">
+  <module>api.texts</module>
+  <cmd>deletearticle</cmd>
+  <message>
+   <![CDATA[Cikkek törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="223">
+  <module>api.texts</module>
+  <cmd>translate_article</cmd>
+  <message>
+   <![CDATA[Érvénytelen cikkazonosító.]]>
+  </message>
+ </error>
+ <error id="224">
+  <module>api.texts</module>
+  <cmd>translate_article</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="228">
+  <module>api.texts</module>
+  <cmd>translate_all_articles</cmd>
+  <message>
+   <![CDATA[Cikkek lefordításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="229">
+  <module>api.texts</module>
+  <cmd>translate_all_articles</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="230">
+  <module>api.gallery</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen képazonosító.]]>
+  </message>
+ </error>
+ <error id="231">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Képek feltöltéséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="232">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen információs sor.]]>
+  </message>
+ </error>
+ <error id="234">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen képadatok.]]>
+  </message>
+ </error>
+ <error id="235">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Mentési hiba: %filename%.]]>
+  </message>
+ </error>
+ <error id="236">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen képazonosító.]]>
+  </message>
+ </error>
+ <error id="237">
+  <module>api.gallery</module>
+  <cmd>addimage</cmd>
+  <message>
+   <![CDATA[Kép törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="238">
+  <module>api.gallery</module>
+  <cmd>updatecaption</cmd>
+  <message>
+   <![CDATA[Képaláírás módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="239">
+  <module>api.gallery</module>
+  <cmd>updatecaption</cmd>
+  <message>
+   <![CDATA[Érvénytelen képazonosító.]]>
+  </message>
+ </error>
+ <error id="240">
+  <module>api.gallery</module>
+  <cmd>updatecaption</cmd>
+  <message>
+   <![CDATA[Ez a képaláírás egy kissé rövid.]]>
+  </message>
+ </error>
+ <error id="241">
+  <module>api.texts</module>
+  <cmd>addarticle</cmd>
+  <message>
+   <![CDATA[Érvénytelen létrehozási idő.]]>
+  </message>
+ </error>
+ <error id="243">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[Érvénytelen nicknév.]]>
+  </message>
+ </error>
+ <error id="244">
+  <module>api.userdata</module>
+  <cmd>deleteuser</cmd>
+  <message>
+   <![CDATA[Felhasználók törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="245">
+  <module>api.messages</module>
+  <cmd>addfolder</cmd>
+  <message>
+   <![CDATA[Mappa hozzáadásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="246">
+  <module>api.messages</module>
+  <cmd>addfolder</cmd>
+  <message>
+   <![CDATA[Érvénytelen cím.]]>
+  </message>
+ </error>
+ <error id="247">
+  <module>api.messages</module>
+  <cmd>addfolder</cmd>
+  <message>
+   <![CDATA[Érvénytelen mappaazonosító.]]>
+  </message>
+ </error>
+ <error id="248">
+  <module>api.messages</module>
+  <cmd>getfolder</cmd>
+  <message>
+   <![CDATA[Érvénytelen mappaazonosító.]]>
+  </message>
+ </error>
+ <error id="249">
+  <module>api.messages</module>
+  <cmd>deletefolder</cmd>
+  <message>
+   <![CDATA[Érvénytelen mappaazonosító.]]>
+  </message>
+ </error>
+ <error id="250">
+  <module>api.messages</module>
+  <cmd>deletefolder</cmd>
+  <message>
+   <![CDATA[Üzenetek törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="251">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Üzenetek olvasásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="252">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Üzenetek olvasásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="253">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen év.]]>
+  </message>
+ </error>
+ <error id="254">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen hónap.]]>
+  </message>
+ </error>
+ <error id="255">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen nap.]]>
+  </message>
+ </error>
+ <error id="256">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetmappa.]]>
+  </message>
+ </error>
+ <error id="257">
+  <module>api.messages</module>
+  <cmd>setunread</cmd>
+  <message>
+   <![CDATA[Üzenetek olvasottként való megjelöléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="258">
+  <module>api.messages</module>
+  <cmd>setunread</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="259">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Rendszerüzenetek módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="261">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[A tárgy túl rövid.]]>
+  </message>
+ </error>
+ <error id="262">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Az üzenet túl rövid.]]>
+  </message>
+ </error>
+ <error id="263">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="264">
+  <module>api.system</module>
+  <cmd>updatesystemmsg</cmd>
+  <message>
+   <![CDATA[Az XML fájl mentése nem sikerült.]]>
+  </message>
+ </error>
+ <error id="265">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen név.]]>
+  </message>
+ </error>
+ <error id="267">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen dátumformátum.]]>
+  </message>
+ </error>
+ <error id="268">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen beállítás a hét első napjára.]]>
+  </message>
+ </error>
+ <error id="269">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen kódolás.]]>
+  </message>
+ </error>
+ <error id="270">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen nyelvkód.]]>
+  </message>
+ </error>
+ <error id="271">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen Google nyelvkód.]]>
+  </message>
+ </error>
+ <error id="272">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen ezreselválasztó karakter.]]>
+  </message>
+ </error>
+ <error id="273">
+  <module>api.system</module>
+  <cmd>updatelanguage</cmd>
+  <message>
+   <![CDATA[Érvénytelen tizedeselválasztó karakter.]]>
+  </message>
+ </error>
+ <error id="275">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Érvénytelen címke.]]>
+  </message>
+ </error>
+ <error id="276">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Érvénytelen érték.]]>
+  </message>
+ </error>
+ <error id="277">
+  <module>api.system</module>
+  <cmd>updatesetting</cmd>
+  <message>
+   <![CDATA[Érvénytelen magyarázat.]]>
+  </message>
+ </error>
+ <error id="278">
+  <module>api.messages</module>
+  <cmd>getautoreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="280">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Automata válaszok módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="281">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Az üzenetszöveg túl rövid.]]>
+  </message>
+ </error>
+ <error id="282">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Az üzenet tárgya túl rövid.]]>
+  </message>
+ </error>
+ <error id="283">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Az információs sor túl rövid.]]>
+  </message>
+ </error>
+ <error id="284">
+  <module>api.messages</module>
+  <cmd>addautoreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="285">
+  <module>api.messages</module>
+  <cmd>deleteautoreply</cmd>
+  <message>
+   <![CDATA[Előre definiált üzenetek módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="286">
+  <module>api.messages</module>
+  <cmd>deleteautoreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="287">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Előre definiált üzenet törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="288">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="289">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="290">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[A forrás- és célnyelv nem lehet azonos.]]>
+  </message>
+ </error>
+ <error id="291">
+  <module>api.messages</module>
+  <cmd>translate_autoreply</cmd>
+  <message>
+   <![CDATA[A forrásüzenet nem létezik.]]>
+  </message>
+ </error>
+ <error id="292">
+  <module>api.messages</module>
+  <cmd>translate_all_autoreplies</cmd>
+  <message>
+   <![CDATA[Automatikus válaszok lefordításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="293">
+  <module>api.messages</module>
+  <cmd>translate_all_autoreplies</cmd>
+  <message>
+   <![CDATA[Érvénytelen célnyelv.]]>
+  </message>
+ </error>
+ <error id="294">
+  <module>api.messages</module>
+  <cmd>translate_all_autoreplies</cmd>
+  <message>
+   <![CDATA[A forrás- és célnyelv nem lehet azonos.]]>
+  </message>
+ </error>
+ <error id="295">
+  <module>api.messages</module>
+  <cmd>deletemessage</cmd>
+  <message>
+   <![CDATA[Üzenet törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="296">
+  <module>api.messages</module>
+  <cmd>deletemessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="297">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Üzenet módosításához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="298">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="299">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen feladónév.]]>
+  </message>
+ </error>
+ <error id="300">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Az üzenetszöveg túl rövid.]]>
+  </message>
+ </error>
+ <error id="301">
+  <module>api.messages</module>
+  <cmd>modifymessage</cmd>
+  <message>
+   <![CDATA[Érvénytelen emailcím.]]>
+  </message>
+ </error>
+ <error id="302">
+  <module>api.messages</module>
+  <cmd>sendmessage</cmd>
+  <message>
+   <![CDATA[Kérjük, add meg a neved.]]>
+  </message>
+ </error>
+ <error id="303">
+  <module>api.messages</module>
+  <cmd>sendmessage</cmd>
+  <message>
+   <![CDATA[Ez az üzenet egy kicsit túl rövid.]]>
+  </message>
+ </error>
+ <error id="304">
+  <module>api.messages</module>
+  <cmd>sendmessage</cmd>
+  <message>
+   <![CDATA[Ez az emailcím érvénytelen.]]>
+  </message>
+ </error>
+ <error id="305">
+  <module>api.messages</module>
+  <cmd>setreplied</cmd>
+  <message>
+   <![CDATA[Üzenetek megválaszoltként való megjelöléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="306">
+  <module>api.messages</module>
+  <cmd>setreplied</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="307">
+  <module>api.messages</module>
+  <cmd>setreplied</cmd>
+  <message>
+   <![CDATA[Érvénytelen beállítás.]]>
+  </message>
+ </error>
+ <error id="308">
+  <module>api.messages</module>
+  <cmd>messagetofolder</cmd>
+  <message>
+   <![CDATA[Az üzenetek mappákba való mozgatásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="309">
+  <module>api.messages</module>
+  <cmd>messagetofolder</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="310">
+  <module>api.messages</module>
+  <cmd>messagetofolder</cmd>
+  <message>
+   <![CDATA[Érvénytelen mappaazonosító.]]>
+  </message>
+ </error>
+ <error id="311">
+  <module>api.messages</module>
+  <cmd>getreply</cmd>
+  <message>
+   <![CDATA[Üzenetek megválaszolásához Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="312">
+  <module>api.messages</module>
+  <cmd>getreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen üzenetazonosító.]]>
+  </message>
+ </error>
+ <error id="313">
+  <module>api.messages</module>
+  <cmd>getreply</cmd>
+  <message>
+   <![CDATA[Érvénytelen automataválasz-azonosító.]]>
+  </message>
+ </error>
+ <error id="319">
+  <module>api.users</module>
+  <cmd>getuser</cmd>
+  <message>
+   <![CDATA[A keresőkifejezés túl rövid.]]>
+  </message>
+ </error>
+ <error id="320">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Belső üzenetek küldéséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="321">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Érvénytelen címzett.]]>
+  </message>
+ </error>
+ <error id="322">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Érvénytelen feladó.]]>
+  </message>
+ </error>
+ <error id="323">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Érvénytelen CC cím.]]>
+  </message>
+ </error>
+ <error id="324">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[A tárgy túl rövid.]]>
+  </message>
+ </error>
+ <error id="325">
+  <module>api.messages</module>
+  <cmd>sendemail</cmd>
+  <message>
+   <![CDATA[Az üzenet túl rövid.]]>
+  </message>
+ </error>
+ <error id="326">
+  <module>api.messages</module>
+  <cmd>getmessage</cmd>
+  <message>
+   <![CDATA[A keresőkifejezés túl rövid.]]>
+  </message>
+ </error>
+ <error id="327">
+  <module>api.system</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen év.]]>
+  </message>
+ </error>
+ <error id="330">
+  <module>api.system</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen hónap.]]>
+  </message>
+ </error>
+ <error id="331">
+  <module>api.gallery</module>
+  <cmd>getimage</cmd>
+  <message>
+   <![CDATA[A keresőkifejezés túl rövid.]]>
+  </message>
+ </error>
+ <error id="332">
+  <module>api.system</module>
+  <cmd>getsetting</cmd>
+  <message>
+   <![CDATA[Érvénytelen token.]]>
+  </message>
+ </error>
+ <error id="333">
+  <module>api.system</module>
+  <cmd>getsetting</cmd>
+  <message>
+   <![CDATA[Belső beállítások megtekintéséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="334">
+  <module>api.system</module>
+  <cmd>getsetting</cmd>
+  <message>
+   <![CDATA[Az összes beállítás lekérdezéséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="335">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Képek átméretezéséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="336">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen képazonosító.]]>
+  </message>
+ </error>
+ <error id="337">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen forgatási irány.]]>
+  </message>
+ </error>
+ <error id="338">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen tükrözési irány.]]>
+  </message>
+ </error>
+ <error id="339">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen átméretezési beállítás.]]>
+  </message>
+ </error>
+ <error id="340">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen képszélesség.]]>
+  </message>
+ </error>
+ <error id="341">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Érvénytelen képmagasság.]]>
+  </message>
+ </error>
+ <error id="342">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[Nincs mit csinálni.]]>
+  </message>
+ </error>
+ <error id="343">
+  <module>api.gallery</module>
+  <cmd>resizeimage</cmd>
+  <message>
+   <![CDATA[A kép mentése sikertelen.]]>
+  </message>
+ </error>
+ <error id="345">
+  <module>api.messages</module>
+  <cmd>getmasslist</cmd>
+  <message>
+   <![CDATA[Érvénytelen listaazonosító.]]>
+  </message>
+ </error>
+ <error id="346">
+  <module>api.messages</module>
+  <cmd>getmasslist</cmd>
+  <message>
+   <![CDATA[Érvénytelen listaazonosító.]]>
+  </message>
+ </error>
+ <error id="347">
+  <module>api.messages</module>
+  <cmd>deletemasslist</cmd>
+  <message>
+   <![CDATA[Címlista törléséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="348">
+  <module>api.messages</module>
+  <cmd>deletemasslist</cmd>
+  <message>
+   <![CDATA[Érvénytelen listaazonosító.]]>
+  </message>
+ </error>
+ <error id="350">
+  <module>api.messages</module>
+  <cmd>savemasslist</cmd>
+  <message>
+   <![CDATA[Ez a lista túl rövid.]]>
+  </message>
+ </error>
+ <error id="351">
+  <module>api.messages</module>
+  <cmd>savemasslist</cmd>
+  <message>
+   <![CDATA[A cím túl rövid.]]>
+  </message>
+ </error>
+ <error id="352">
+  <module>api.messages</module>
+  <cmd>getreplytemplate</cmd>
+  <message>
+   <![CDATA[Válaszüzenet-sablonok lekéréséhez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="353">
+  <module>api.messages</module>
+  <cmd>importmasslist</cmd>
+  <message>
+   <![CDATA[A beimportált szöveg túl rövid.]]>
+  </message>
+ </error>
+ <error id="354">
+  <module>api.messages</module>
+  <cmd>importmasslist</cmd>
+  <message>
+   <![CDATA[Ezt a listát nem lehet szétbontani. Talán helytelen elválasztó karaktert választottál?]]>
+  </message>
+ </error>
+ <error id="355">
+  <module>api.messages</module>
+  <cmd>importmasslist</cmd>
+  <message>
+   <![CDATA[Érvénytelen elválasztó karakter.]]>
+  </message>
+ </error>
+ <error id="356">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Tömeges levélküldéshez Administrator jogosultság szükséges.]]>
+  </message>
+ </error>
+ <error id="357">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Érvénytelen cím.]]>
+  </message>
+ </error>
+ <error id="358">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[A tárgysor túl rövid.]]>
+  </message>
+ </error>
+ <error id="359">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[A levéltörzs túl rövid.]]>
+  </message>
+ </error>
+ <error id="360">
+  <module>api.messages</module>
+  <cmd>sendmassmail</cmd>
+  <message>
+   <![CDATA[Érvénytelen küldő.]]>
+  </message>
+ </error>
+ <error id="374">
+  <module>api.userdata</module>
+  <cmd>register</cmd>
+  <message>
+   <![CDATA[A felhasználónév és a jelszó nem lehet azonos.]]>
+  </message>
+ </error>
+ <error id="1000">
+  <module>pgCMS</module>
+  <cmd>general error</cmd>
+  <message>
+   <![CDATA[PostgreSQL hiba: %errormsg%]]>
+  </message>
+ </error>
+ <error id="1001">
+  <module>pgCMS</module>
+  <cmd>general error</cmd>
+  <message>
+   <![CDATA[%errormsg%]]>
+  </message>
+ </error>
+</errors>

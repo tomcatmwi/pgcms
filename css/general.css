@@ -1,0 +1,19 @@
+.flag {
+  margin-right: 5px;
+  vertical-align: middle;
+  cursor: pointer;  
+}
+
+.captcha {
+  margin-top: 1em;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+}
+
+select {
+  padding: 2px;
+}
+
+label {
+  vertical-align: middle;
+}
